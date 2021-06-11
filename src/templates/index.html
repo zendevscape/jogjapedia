@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JogjaPedia</title>
+  <meta name="description" content="Temukan berbagai hal menarik di Yogyakarta">
+  <meta name="theme-color" content="#e40000">
+  <link rel="apple-touch-icon" sizes="192x192" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="header-wrapper">
+      <h1>
+        <img class="logo-white" width="200px" src="/assets/img/logo-white.png" alt="JogjaPedia">
+        <img class="logo-black" width="200px" src="/assets/img/logo-black.png" alt="JogjaPedia">
+      </h1>
+      <nav>
+        <button class="floatmenu" aria-label="Menu">
+          <svg viewBox="0 0 20 20" fill="currentColor" class="icon__open">
+            <path fill-rule="evenodd"
+              d="M3 7a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 13a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"></path>
+          </svg>
+          <svg viewBox="0 0 20 20" fill="currentColor" class="icon__close">
+            <path fill-rule="evenodd"
+              d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+              clip-rule="evenodd"></path>
+          </svg>
+        </button>
+        <ul class="nav__list">
+          <li><a class="home" href="/#/"><i class="material-icons">home</i>Beranda</a></li>
+          <li><a class="explore" href="/#/explore"><i class="material-icons">explore</i>Jelajahi</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <loading-splash>
+    </loading-splash>
+  </main>
+  <footer>
+    <div class="about">
+      <img width="250px" src="/assets/img/logo-white.png" alt="JogjaPedia">
+      <p>Situs penyedia informasi seputar tempat wisata, makanan, dan berbagai keunikan lain, sebagai panduan kamu
+        ketika hendak berkunjung ke Daerah Istimewa Yogyakarta.</p>
+      <p>© 2021 JogjaPedia.</p>
+    </div>
+    <div class="page">
+      <p>Halaman</p>
+      <ul>
+        <li><a href="/#/">Beranda</a></li>
+        <li><a href="/#/explore">Jelajahi</a></li>
+      </ul>
+    </div>
+    <div class="category">
+      <p>Kategori</p>
+      <ul>
+        <li><a href="/#/category/wisata">Destinasi Wisata</a></li>
+        <li><a href="/#/category/kuliner">Kuliner</a></li>
+        <li><a href="/#/category/kerajinan">Kerajinan</a></li>
+        <li><a href="/#/category/pendidikan">Lembaga Pendidikan</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>

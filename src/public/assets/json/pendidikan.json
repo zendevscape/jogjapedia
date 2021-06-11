@@ -1,0 +1,26 @@
+[
+  {
+    "id": "madrasah-muallimin-muhammadiyah",
+    "category": "Lembaga Pendidikan",
+    "name": "Madrasah Mu'allimin Muhammadiyah",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla diam mi, imperdiet ut auctor ac, tempus vel quam. Morbi eu nibh cursus, lacinia nisl quis, scelerisque neque. Nam ut dui risus. Pellentesque scelerisque tortor nisl, nec dapibus orci tincidunt eget. In egestas ligula diam, sit amet pellentesque sem viverra quis.",
+    "picture": "",
+    "location": "Jl. Letjen S. Parman No. 68, Patangpuluhan, Wirobrajan, Kota Yogyakarta.",
+    "map": "https://goo.gl/maps/P8Qt1rsSth6L3dJQA",
+    "rating": "4.7",
+    "review": [
+      {
+        "name": "Yoga Prasetya Rahman",
+        "text": "Sekolah para santri yang dulu ane 6 tahun sekolah disini. Mu'allimin sendiri punya MTs dan program MA. Mu'allimin sendiri sekolah legenda dimana yang didirikan langsung K.H. Ahmad Dahlan."
+      },
+      {
+        "name": "Darmawan Budisatriya",
+        "text": "Tempat pendidikan yg tepat untuk mempersiapkan anak menghadapi tantangan zaman. Pendidikan agama, karakter, ilmu dan teknologi dikombinasikan dan diajarkan dengan metode pembelajaran yg terus berkembang."
+      },
+      {
+        "name": "Muhammad Sholehuddin Fathoni",
+        "text": "Sistem pendidikan di sini sangat baik. Sangat di rekomendasikan untuk orang tua yang mencari tempat pendidikan untuk anak-anak nya. Karena di sini mengajarkan kebaikan untuk di terapkan sehari-hari dan mengajarkan penghafalan Qur'an."
+      }
+    ]
+  }
+]

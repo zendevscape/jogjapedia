@@ -1,0 +1,233 @@
+main.details .content-wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 30px;
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 56px 0 0;
+}
+
+main.details section.image {
+  grid-area: span 1 / span 6 / auto / auto;
+}
+
+main.details section.image img {
+  object-fit: cover;
+  object-position: center;
+  min-height: 350px;
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  -webkit-clip-path: ellipse(160% 100% at 50% 0%);
+  clip-path: ellipse(160% 100% at 50% 0%);
+}
+
+main.details section.image p {
+  position: absolute;
+  top: 58px;
+  left: 3px;
+  font-size: 10px;
+  text-align: left;
+  text-shadow: 1px 0 0 #000000, -1px 0 0 #000000, 0 1px 0 #000000,
+    0 -1px 0 #000000;
+  color: #ffffff;
+}
+
+main.details section.entity,
+main.details section.details,
+main.details section.market,
+main.details section.review {
+  grid-area: span 1 / span 6 / auto / auto;
+  padding: 15px 15px 0;
+}
+
+main.details section .section-wrapper {
+  position: relative;
+  max-width: 480px;
+  padding: 15px;
+  margin: 0 auto;
+  border-radius: 1rem;
+  background-color: #ffffff;
+  transition: box-shadow 0.5s;
+}
+
+main.details section .section-wrapper:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px #aaaaaa80;
+}
+
+main.details section.entity .section-wrapper {
+  margin-top: -100px;
+}
+
+main.details section.entity h1 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+main.details section.entity p {
+  font-size: 16px;
+  margin: 3px 0 0;
+}
+
+main.details section.entity .entity__tag {
+  margin: 3px 0 0;
+}
+
+main.details .entity__tag span {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 6px 15px 5px;
+  margin: 5px 5px 0 0;
+  border-radius: 25px;
+  background-color: #e40000;
+}
+
+main.details .entity__tag .material-icons {
+  color: #ffffff;
+  font-size: 21px;
+  vertical-align: text-bottom;
+  margin-right: 7px;
+}
+
+main.details section.details h2,
+main.details section.market h2,
+main.details section.review h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0 0;
+}
+
+main.details section.details p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 5px 0 0;
+}
+
+main.details section.details p.details__category {
+  display: inline-block;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 6px 15px 5px;
+  margin: 10px 10px 0 0;
+  border-radius: 25px;
+  background-color: #e40000;
+}
+
+main.details section.details .details__map {
+  width: 100%;
+  border: 0;
+  border-radius: 0.5em;
+  margin: 10px auto -5px;
+}
+
+main.details section.market .market-wrapper,
+main.details section.review .review-wrapper {
+  margin: 10px 0 0;
+}
+
+main.details section.market .market__item,
+main.details section.review .review__item {
+  padding: 10px;
+  margin: 15px 0 0;
+  border-radius: 0.7rem;
+  background-color: #f6f8fd;
+}
+
+main.details .market__item .market__identity,
+main.details .review__item .review__identity {
+  border-bottom: 0.1px solid #dddddd;
+  padding-bottom: 5px;
+}
+
+main.details .market__identity h3,
+main.details .review__identity h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+main.details .market__identity p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.3;
+  margin-top: 5px;
+}
+
+main.details .market__item .market__map {
+  width: 100%;
+  border: 0;
+  border-radius: 0.5em;
+  margin: 10px auto -5px;
+}
+
+main.details .review__item .review__text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  main.details section.image {
+    position: relative;
+    grid-area: span 2 / 1 / auto / 4;
+    padding: 0 0 0 30px;
+    height: 100%;
+    -webkit-clip-path: none;
+    clip-path: none;
+  }
+
+  main.details section.image div {
+    top: 96px;
+    position: sticky;
+    margin-top: 30px;
+  }
+
+  main.details section.image img {
+    aspect-ratio: 1 / 1;
+    border-radius: 1rem;
+    -webkit-clip-path: none;
+    clip-path: none;
+  }
+
+  main.details section.image p {
+    position: absolute;
+    top: 2px;
+    left: 3px;
+    font-size: 10px;
+    text-align: left;
+    text-shadow: 1px 0 0 #000000, -1px 0 0 #000000, 0 1px 0 #000000,
+      0 -1px 0 #000000;
+    color: #ffffff;
+  }
+
+  main.details section.entity,
+  main.details section.details {
+    grid-area: span 1 / 4 / auto / 7;
+    padding: 0 30px 0 0;
+  }
+
+  main.details section .section-wrapper,
+  main.details section.entity .section-wrapper {
+    max-width: 960px;
+    margin: 40px 0 0;
+  }
+
+  main.details section.market,
+  main.details section.review {
+    grid-area: span 1 / span 6 / auto / auto;
+    padding: 0 30px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main.details .content-wrapper {
+    padding: 76px 0 0;
+  }
+
+  main.details section.image div {
+    top: 116px;
+  }
+}

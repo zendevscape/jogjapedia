@@ -1,0 +1,26 @@
+[
+  {
+    "id": "keraton-yogyakarta",
+    "category": "Destinasi Wisata",
+    "name": "Keraton Yogyakarta",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla diam mi, imperdiet ut auctor ac, tempus vel quam. Morbi eu nibh cursus, lacinia nisl quis, scelerisque neque. Nam ut dui risus. Pellentesque scelerisque tortor nisl, nec dapibus orci tincidunt eget. In egestas ligula diam, sit amet pellentesque sem viverra quis.",
+    "picture": "",
+    "location": "Jl. Rotowijayan Blok No. 1, Panembahan, Kecamatan Kraton, Kota Yogyakarta.",
+    "map": "https://goo.gl/maps/H2sifGaMujaT8Dr87",
+    "rating": "4.6",
+    "review": [
+      {
+        "name": "Fadhilan",
+        "text": "Penuh sejarah tentunya. Kemarin kesini pas lagi ada pameran. Biaya masuk 20k. Dicek dulu suhu & cuci tangan. Selalu diingatkam buat jaga prokes juga. Masuk disampingi sama mbok abdi dalem yg baik & sabar banget menjelaskan ini itu sama menjawab pertanyaan kita kita. Bisa liat yg lagi ngebatik juga. Sayang ga ada pertunjukan karena lagi pandemi. Spot tertentu ga boleh difoto, yg lainnya bebas."
+      },
+      {
+        "name": "Bayu Aji",
+        "text": "Tempat yang damai dan artistik. Wisata budaya dan edukasi sejarah paling direkomendasikan di Yogya. Tour guide ramah dan bisa menjelaskan dengan lengkap, juga tersedia souvenir khas keraton yang dijual untuk wisatawan."
+      },
+      {
+        "name": "Ginty Intan Mawarti",
+        "text": "Baru pertama kali ke Jogja dan destinasi wisata pertama yang dikunjungi yaitu Keraton Jogja. Jujur awalnya deg2an. Di dalam kita ditemani guide yang menjelaskan sejarah Yogyakarta dan sejarah keraton Yogyakarta. Banyak sekali barang2 antik dan foto2 dari Raja pertama sampai Raja terakhir. Lain kali masih pengen balik lagi."
+      }
+    ]
+  }
+]

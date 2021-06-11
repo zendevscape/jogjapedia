@@ -1,0 +1,458 @@
+main.home section.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 500px;
+  max-height: 800px;
+  height: 80vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/assets/img/heroes/hero-1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  -webkit-clip-path: ellipse(170% 100% at 50% 0%);
+  clip-path: ellipse(170% 100% at 50% 0%);
+}
+
+main.home section.hero .hero__inner {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 30px;
+}
+
+main.home section.hero .hero__pretitle {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+main.home section.hero .hero__title {
+  margin-top: 10px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+main.home section.hero .hero__copyright {
+  color: #bbbbbb;
+  font-size: 10px;
+  text-orientation: mixed;
+  writing-mode: vertical-rl;
+  position: absolute;
+  left: 0;
+  top: 80px;
+}
+
+main.home .content-wrapper {
+  width: 100%;
+}
+
+main.home section.about,
+main.home section.history,
+main.home section.leader {
+  width: 100%;
+  padding: 0 30px;
+  margin-top: 30px;
+}
+
+main.home section.about {
+  margin-top: 50px;
+}
+
+main.home section.about p,
+main.home section.history p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+main.home section.history h2,
+main.home section.leader h2 {
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+main.home section.carousel {
+  margin: 30px auto 0;
+  aspect-ratio: 8 / 5;
+  width: 100%;
+  max-height: 300px;
+}
+
+main.home section.carousel img {
+  object-fit: cover;
+  object-position: center;
+  aspect-ratio: 8 / 5;
+  width: 100%;
+  max-height: 300px;
+  border-radius: 0.7rem;
+}
+
+main.home section.carousel p.carousel__copyright {
+  position: absolute;
+  top: 2px;
+  left: 3px;
+  padding-right: 3px;
+  font-size: 10px;
+  text-align: left;
+  text-shadow: 1px 0 0 #000000, -1px 0 0 #000000, 0 1px 0 #000000,
+    0 -1px 0 #000000;
+  color: #ffffff;
+}
+
+main.home section.carousel .carousel-caption {
+  bottom: 0;
+  padding-bottom: 0.5rem;
+}
+
+main.home .carousel-caption p {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+main.home section.statistic {
+  width: 100%;
+  padding: 0 15px;
+  margin-top: 30px;
+}
+
+main.home section.statistic .statistic-wrapper {
+  width: 100%;
+  max-width: 390px;
+  background-color: #ffffff;
+  transition: box-shadow 0.5s;
+  border-radius: 1rem;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+main.home section.statistic .statistic-wrapper:hover {
+  box-shadow: 10px 10px 25px 0 #e7ebf5;
+}
+
+main.home .statistic-wrapper h2 {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+main.home .statistic-wrapper .counter-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+main.home .counter-wrapper .confirmed,
+main.home .counter-wrapper .active,
+main.home .counter-wrapper .recovered,
+main.home .counter-wrapper .deceased {
+  grid-area: span 1 / span 4 / auto / auto;
+  position: relative;
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  border-radius: 0.7rem;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main.home .counter-wrapper .confirmed::before,
+main.home .counter-wrapper .active::before,
+main.home .counter-wrapper .recovered::before,
+main.home .counter-wrapper .deceased::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  background: url(assets/img/icons/circle.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+
+main.home .counter-wrapper .confirmed {
+  background-color: #f82649;
+}
+
+main.home .counter-wrapper .active {
+  background-color: #e5cf0d;
+}
+
+main.home .counter-wrapper .recovered {
+  background-color: #03c400;
+}
+
+main.home .counter-wrapper .deceased {
+  background-color: #dd9933;
+}
+
+main.home .statistic-wrapper .info {
+  margin-top: 15px;
+}
+
+main.home .info p {
+  font-size: 14px;
+  text-align: center;
+}
+
+main.home .info a {
+  text-decoration: none;
+  color: #000000;
+}
+
+main.home .info a:link {
+  color: #000000;
+}
+
+main.home .info a:active {
+  color: #000000;
+}
+
+main.home .info a:visited {
+  color: #000000;
+}
+
+main.home .confirmed p.counter,
+main.home .active p.counter,
+main.home .recovered p.counter,
+main.home .deceased p.counter {
+  font-size: 40px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+main.home .confirmed p.caption,
+main.home .active p.caption,
+main.home .recovered p.caption,
+main.home .deceased p.caption {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 6px 15px 5px;
+  border-radius: 25px;
+  background-color: #ffffff;
+}
+
+main.home .confirmed p.caption {
+  color: #f82649;
+}
+
+main.home .active p.caption {
+  color: #e5cf0d;
+}
+
+main.home .recovered p.caption {
+  color: #03c400;
+}
+
+main.home .deceased p.caption {
+  color: #dd9933;
+}
+
+main.home section.leader .leader__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  max-width: 1024px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+main.home .leader__list .leader__governor,
+main.home .leader__list .leader__vice-governor {
+  grid-area: span 1 / span 4 / auto / auto;
+  min-width: 250px;
+  max-width: 300px;
+  padding: 10px;
+  background-color: #ffffff;
+  transition: box-shadow 0.5s;
+  border-radius: 1rem;
+  margin: 0 auto;
+}
+
+main.home .leader__list .leader__governor:hover,
+main.home .leader__list .leader__vice-governor:hover {
+  box-shadow: 10px 10px 25px 0 #e7ebf5;
+}
+
+main.home .leader__governor img,
+main.home .leader__vice-governor img {
+  object-fit: cover;
+  object-position: center;
+  aspect-ratio: 6 / 9;
+  width: 100%;
+  border-radius: 0.7rem;
+}
+
+main.home .leader__governor h3,
+main.home .leader__vice-governor h3 {
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 5px;
+}
+
+main.home .leader__governor p,
+main.home .leader__vice-governor p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+}
+
+main.home section.campaign {
+  width: 100%;
+  min-height: 250px;
+  padding: 30px;
+  margin-top: 60px;
+  background-color: #ffffff;
+}
+
+main.home section.campaign .campaign-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+main.home .campaign-wrapper h2 {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.5;
+  color: #34364a;
+}
+
+main.home .campaign-wrapper p {
+  font-size: 16px;
+  text-align: center;
+  line-height: 2;
+  color: #34364a;
+  margin-top: 10px;
+}
+
+main.home .campaign-wrapper a {
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 12px 40px 12px 50px;
+  border-radius: 30px;
+  color: #ffffff;
+  background-color: #e40000;
+  transition: box-shadow 0.5s;
+  margin-top: 30px;
+}
+
+main.home .campaign-wrapper a:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px #e400004d;
+}
+
+main.home .campaign-wrapper a:hover {
+  box-shadow: 10px 10px 25px 0 #e7ebf5;
+}
+
+main.home .campaign-wrapper .material-icons {
+  vertical-align: text-bottom;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  main.home section.hero {
+    -webkit-clip-path: ellipse(120% 100% at 50% 0%);
+    clip-path: ellipse(120% 100% at 50% 0%);
+  }
+
+  main.home section.hero .hero__pretitle {
+    font-size: 26px;
+  }
+
+  main.home section.hero .hero__title {
+    font-size: 40px;
+  }
+
+  main.home section.statistic .statistic-wrapper {
+    max-width: 810px;
+  }
+
+  main.home .counter-wrapper .confirmed,
+  main.home .counter-wrapper .active,
+  main.home .counter-wrapper .recovered,
+  main.home .counter-wrapper .deceased {
+    grid-area: span 1 / span 2 / auto / auto;
+  }
+
+  main.home .leader__list .leader__governor,
+  main.home .leader__list .leader__vice-governor {
+    grid-area: span 1 / span 2 / auto / auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main.home .content-wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 30px;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+  }
+
+  main.home section.hero .hero__pretitle {
+    font-size: 30px;
+  }
+
+  main.home section.hero .hero__title {
+    font-size: 46px;
+  }
+
+  main.home section.about,
+  main.home section.history,
+  main.home section.leader {
+    grid-area: span 1 / span 4 / auto / auto;
+    padding: 0;
+  }
+
+  main.home section.carousel {
+    grid-area: 1 / 5 / span 1 / span 2;
+    margin-top: 50px;
+  }
+
+  main.home section.statistic {
+    grid-area: 2 / 5 / span 2 / span 2;
+    margin-top: 30px;
+    padding: 0;
+  }
+
+  main.home section.statistic .statistic-wrapper {
+    max-width: 420px;
+    position: sticky;
+    top: 106px;
+  }
+
+  main.home .counter-wrapper .confirmed,
+  main.home .counter-wrapper .active,
+  main.home .counter-wrapper .recovered,
+  main.home .counter-wrapper .deceased {
+    grid-area: span 1 / span 4 / auto / auto;
+  }
+
+  main.home section.campaign .campaign-wrapper {
+    max-width: 1280px;
+  }
+}

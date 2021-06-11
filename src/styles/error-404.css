@@ -1,0 +1,45 @@
+main.error-404 section.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+main.error-404 section.hero img {
+  max-width: 300px;
+}
+
+main.error-404 section.hero p {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+}
+
+main.error-404 section.hero a {
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 12px 40px 12px 50px;
+  border-radius: 30px;
+  color: #ffffff;
+  background-color: #e40000;
+  transition: box-shadow 0.5s;
+  margin-top: 30px;
+}
+
+main.error-404 section.hero a:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px #e400004d;
+}
+
+main.error-404 section.hero a:hover {
+  box-shadow: 10px 10px 25px 0 #e7ebf5;
+}
+
+main.error-404 section.hero .material-icons {
+  vertical-align: text-bottom;
+  margin-left: 10px;
+}

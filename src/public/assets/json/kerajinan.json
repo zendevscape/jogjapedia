@@ -1,0 +1,27 @@
+[
+  {
+    "id": "perak-kotagede",
+    "category": "Kerajinan",
+    "name": "Perak Kotagede",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla diam mi, imperdiet ut auctor ac, tempus vel quam. Morbi eu nibh cursus, lacinia nisl quis, scelerisque neque. Nam ut dui risus. Pellentesque scelerisque tortor nisl, nec dapibus orci tincidunt eget. In egestas ligula diam, sit amet pellentesque sem viverra quis.",
+    "picture": "",
+    "price": "Rp300.000 - Rp2.000.000",
+    "market": [
+      {
+        "name": "Salim Silver",
+        "location": "Kebohan KG 3/547, Purbayan, Kecamatan Kotagede, Kota Yogyakarta.",
+        "map": "https://goo.gl/maps/FoN3yNGB3XKK97GWA"
+      },
+      {
+        "name": "Ansor's Silver",
+        "location": "Jl. Tegal Gendu No. 28, Prenggan, Kecamatan Kotagede, Kota Yogyakarta.",
+        "map": "https://goo.gl/maps/cRdR47qPAk9FX2hy5"
+      },
+      {
+        "name": "Narti's Silver",
+        "location": "Jl. Tegal Gendu No. 22, Prenggan, Kecamatan Kotagede, Kota Yogyakarta.",
+        "map": "https://goo.gl/maps/T1zaALEUYiA1FGXy6"
+      }
+    ]
+  }
+]
