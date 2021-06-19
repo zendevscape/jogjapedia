@@ -136,28 +136,32 @@ const Home = {
   },
 
   async afterRender() {
-    new Typed('.pretitle__typed', {
-      strings: [
-        'Selamat Datang di',
-        'Welcome to',
-        'Sugeng Rawuh wonten',
-      ],
-      loop: true,
-      typeSpeed: 60,
-      backSpeed: 30,
-      backDelay: 2000,
-    });
+    try {
+      new Typed('.pretitle__typed', {
+        strings: [
+          'Selamat Datang di',
+          'Welcome to',
+          'Sugeng Rawuh wonten',
+        ],
+        loop: true,
+        typeSpeed: 60,
+        backSpeed: 30,
+        backDelay: 2000,
+      });
 
-    const covidData = await CovidDataSource.getData();
-    const confirmed = covidData.Kasus_Posi;
-    const recovered = covidData.Kasus_Semb;
-    const deceased = covidData.Kasus_Meni;
-    const active = confirmed - recovered - deceased;
+      const covidData = await CovidDataSource.getData();
+      const confirmed = covidData.Kasus_Posi;
+      const recovered = covidData.Kasus_Semb;
+      const deceased = covidData.Kasus_Meni;
+      const active = confirmed - recovered - deceased;
 
-    document.querySelector('.confirmed .counter').innerHTML = confirmed.toLocaleString('id-ID');
-    document.querySelector('.active .counter').innerHTML = active.toLocaleString('id-ID');
-    document.querySelector('.recovered .counter').innerHTML = recovered.toLocaleString('id-ID');
-    document.querySelector('.deceased .counter').innerHTML = deceased.toLocaleString('id-ID');
+      document.querySelector('.confirmed .counter').innerHTML = confirmed.toLocaleString('id-ID');
+      document.querySelector('.active .counter').innerHTML = active.toLocaleString('id-ID');
+      document.querySelector('.recovered .counter').innerHTML = recovered.toLocaleString('id-ID');
+      document.querySelector('.deceased .counter').innerHTML = deceased.toLocaleString('id-ID');
+    } catch (error) {
+      console.log(error.message);
+    };
   },
 };
 

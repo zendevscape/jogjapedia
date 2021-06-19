@@ -30,18 +30,22 @@ const Category = {
   },
 
   async afterRender() {
-    if (this._category) {
-      new CategoryShowPresenter({
-        catId: this._category.id,
-        view,
-        itemDataSource: ItemDataSource,
-      });
-      new CategorySearchPresenter({
-        catId: this._category.id,
-        view,
-        itemDataSource: ItemDataSource,
-      });
-    }
+    try {
+      if (this._category) {
+        new CategoryShowPresenter({
+          catId: this._category.id,
+          view,
+          itemDataSource: ItemDataSource,
+        });
+        new CategorySearchPresenter({
+          catId: this._category.id,
+          view,
+          itemDataSource: ItemDataSource,
+        });
+      }
+    } catch (error) {
+      console.log(error.message);
+    };
   },
 };
 

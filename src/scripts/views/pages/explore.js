@@ -30,11 +30,15 @@ const Explore = {
   },
 
   async afterRender() {
-    const categoryData = await CategoryDataSource.getAllCategories();
-    const categoryList = document.querySelector('.category__list');
-    categoryData.forEach((category) => {
-      categoryList.innerHTML += createCategoryItem(category);
-    });
+    try {
+      const categoryData = await CategoryDataSource.getAllCategories();
+      const categoryList = document.querySelector('.category__list');
+      categoryData.forEach((category) => {
+        categoryList.innerHTML += createCategoryItem(category);
+      });
+    } catch (error) {
+      console.log(error.message);
+    };
   },
 };
 
