@@ -17,12 +17,12 @@ const createItem = (catId, item) => {
       'https://picsum.photos/id/666/700/400?grayscale'}"
       height="200"
       class="lazyload"
-      alt="${item.name || '-'}">
+      alt="${item.name}">
     <p>${item.picture.license}</p>
     <div class="node__details">
-      <h3>${item.name || '-'}</h3>
+      <h3>${item.name}</h3>
       <div class="node__description">
-        <p>${item.description || '-'}</p>
+        ${item.description}
       </div>
     </div>
   </a>
