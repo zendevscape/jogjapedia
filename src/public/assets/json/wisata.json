@@ -3,10 +3,13 @@
     "id": "keraton-yogyakarta",
     "category": "Destinasi Wisata",
     "name": "Keraton Yogyakarta",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla diam mi, imperdiet ut auctor ac, tempus vel quam. Morbi eu nibh cursus, lacinia nisl quis, scelerisque neque. Nam ut dui risus. Pellentesque scelerisque tortor nisl, nec dapibus orci tincidunt eget. In egestas ligula diam, sit amet pellentesque sem viverra quis.",
-    "picture": "",
-    "location": "Jl. Rotowijayan Blok No. 1, Panembahan, Kecamatan Kraton, Kota Yogyakarta.",
-    "map": "https://goo.gl/maps/H2sifGaMujaT8Dr87",
+    "description": "<p>Keraton Yogyakarta adalah sebuah kompleks besar yang dirancang dengan cermat untuk mencerminkan kosmologi Jawa. Keraton ini secara bertahap dibangun oleh Sultan Hamen Kubuwono I dan selesai dibangun pada tahun 1790. Keraton dibangun menghadap ke utara dari Gunung Merapi. Sebelah selatan berbatasan dengan Samudera Hindia. Sejak saat itu, pendopo di Kompleks Keraton Yogyakarta dibangun menurut kepercayaan kuno, dan karakteristik masing-masing kompleks, dari halaman hingga pepohonan, memiliki makna simbolis khusus yang terkait dengan filosofi luhur orang Jawa.</p>",
+    "picture": {
+      "link": "/assets/img/wisata/keraton-yogyakarta.jpg",
+      "license": "© Gunawan Kartapranata / CC BY-SA 3.0"
+    },
+    "location": "Jl. Rotowijayan Blok No. 1, Panembahan, Kraton, Kota Yogyakarta, Daerah Istimewa Yogyakarta.",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.853976468331!2d110.36201441490813!3d-7.805279179650699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5796db06c7ef%3A0x395271cf052b276c!2sKeraton%20Yogyakarta!5e0!3m2!1sid!2sid!4v1624121107047!5m2!1sid!2sid",
     "rating": "4.6",
     "review": [
       {
@@ -20,6 +23,303 @@
       {
         "name": "Ginty Intan Mawarti",
         "text": "Baru pertama kali ke Jogja dan destinasi wisata pertama yang dikunjungi yaitu Keraton Jogja. Jujur awalnya deg2an. Di dalam kita ditemani guide yang menjelaskan sejarah Yogyakarta dan sejarah keraton Yogyakarta. Banyak sekali barang2 antik dan foto2 dari Raja pertama sampai Raja terakhir. Lain kali masih pengen balik lagi."
+      }
+    ]
+  },
+  {
+    "id": "malioboro",
+    "category": "Destinasi Wisata",
+    "name": "Malioboro",
+    "description": "<p>Kawasan ini merupakan jantung kota dan simbol kota Yogyakarta. Beberapa orang merasa belum lengkap ketika datang ke Jogja, namun belum mengunjungi Malioboro. Namun ada sejarah panjang Malioboro di balik keistimewaannya. Keberadaan Keraton Yogyakarta abad ke-18, Jalan Malioboro Jogja, masih berupa jalan kerikil yang belum diberi nama. Jalan tersebut menghubungkan Kraton Yogyakarta dengan Tugu Golog-gilig dan membentuk garis lurus dengan Gunung Merapi. Sebagian besar kanan dan kiri adalah perkampungan. malioboro banyak dikenal karena Beragam wisata berupa pantai yang mempesona serta sejarah dan budaya. Tak heran jika banyak orang yang merindukan keindahan Jogja. Jika Anda menikmati keindahan Jogja saat senja tiba di malam hari, pesona kota di Gudeg ini baru saja dimulai. Jadi jangan lari pulang jika belum merasakan indahnya Jogja di malam hari.</p>",
+    "picture": {
+      "link": "/assets/img/wisata/malioboro.jpg",
+      "license": "© Gunawan Kartapranata / CC BY-SA 3.0"
+    },
+    "location": "Jl. Malioboro, Suryatmajan, Danurejan, Kota Yogyakarta, Daerah Istimewa Yogyakarta.",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.9734474462743!2d110.36368561477809!3d-7.79263589438422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5825fa6106c5%3A0x3ea4c521a5ed1133!2sJl.%20Malioboro%2C%20Sosromenduran%2C%20Gedong%20Tengen%2C%20Kota%20Yogyakarta%2C%20Daerah%20Istimewa%20Yogyakarta!5e0!3m2!1sen!2sid!4v1624121137192!5m2!1sen!2sid",
+    "rating": "4.7",
+    "review": [
+      {
+        "name": "Wismandaka Tri Ardana",
+        "text": "Jalan icon dareah wisata kota Yogyakarta .. jalanan yang gak bosan bosan nya di kunjungi tempat nonggkrong tempat belanja tempat sselfi hang out rilek terpasu di satu street Malioboro .. pengunjung domestik dan internasional... pengagum budaya leluhur yang tak pernah pidar walau pun di abad moderen.. jangan lupa kuliner mantap enak murah pas di kantong pelancong seperti guwe .. he he he.. stay home atau hotel dakat dan murah juga pkok nya nyaman deh kalau wisata kesana coba kunjungin jalan malioboro."
+      },
+      {
+        "name": "Shyntia Wardana",
+        "text": "Ke Jogja tidak puas kalo tidak mampir kesini. Meskipun selalu padat pengunjung, tapi suasana di jalan ini selalu dicari. Dari sini terus naik becak menuju toko oleh2 khas Jogja, Bakpia Pathok. Jogja yang selalu dirindukan."
+      },
+      {
+        "name": "Sabil",
+        "text": "Nice place to chill. Meskipun pada masa corona jalan malioboro masih ramai dipenuhi oleh wisatawan lokal, penjagaan agak sedikit longgar karena kalau tidak ditegur oleh petugas para wisatawan yang ramai tidak begitu memperhatikan jarak sesamanya karena terlalu chilll."
+      }
+    ]
+  },
+  {
+    "id": "taman-nasional-gunung-merapi",
+    "category": "Destinasi Wisata",
+    "name": "Taman Nasional Gunung Merapi",
+    "description": "<p>Taman Nasional Gunung Merapi terletak di Jawa Tengah. Di sisi pemerintah, taman nasional ini merupakan bagian dari dua provinsi, yaitu Jawa Tengah dan Yogyakarta. 134/Menhut-II/2004 tanggal 4 Mei 2004. Tujuan pengelolaannya adalah untuk melindungi sumber air, sungai dan memelihara sistem penting pemerintahan/kota Sleman, Yogyakarta, Klaten, Boyolali dan Magelang. Taman Nasional Gunung Merapi dikelola oleh Pusat KSDA Yogyakarta.</p>",
+    "picture": {
+      "link": "/assets/img/wisata/taman-nasional-gunung-merapi.jpg",
+      "license": "© Crisco 1492 / CC BY-SA 3.0"
+    },
+    "location": "Jl. Kaliurang KM. 22,6, Hargobinangun, Pakem, Kabupaten Sleman, Daerah Istimewa Yogyakarta.",
+    "map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31641.368379652056!2d110.4326488!3d-7.5563207!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5e7d854354d5%3A0x37db7afb7cc10e8f!2sTaman%20Nasional%20Gunung%20Merapi!5e0!3m2!1sen!2sid!4v1624121817892!5m2!1sen!2sid",
+    "rating": "4.5",
+    "review": [
+      {
+        "name": "Santi Sulastri",
+        "text": "Suatu pengalaman yang berkesan sekaligus menyedihkan bisa mengunjungi tempat yang sudah pernah mengalami musibah bencana meletusnya gunung merapi.  Kebayang waktu kejadiannya seperti apa sangat memprihatinkan melihat foto foto korban dan sisa sisa bencana tersebut. Kami hanya bisa sampai bunker kali adem yang jaraknya 4 km lg dari gunung merapi. Mudah mudahan tidak terjadi lagi."
+      },
+      {
+        "name": "Raharyo Bandoro",
+        "text": "Pemandangan alam ciamik, hutan masih kategori terjaga baik meskipun keanekaragaman hayati termasuk rendah bisa dimaklumi karena lapisan muda, tidak luas dan secara rutin tersapu erupsi. Namun begitu memiliki spesies istimewa termasuk anggrek merapi (Vanda tricolor) dan elang jawa. Species bambu juga lengkap. Banyak pohon nangka juga."
+      },
+      {
+        "name": "Bindoo Channel",
+        "text": "Favorit place kedua setelah pantai men.asli adem.masih sedikit pengunjung.asri terjaga.ada gardu pandang juga.ini sebelahan sama tikungan cinta.buat yang berjiwa petualang recommended bgt.prefer kesini drpd ke tikungan cinta.pemandangan juga gak kalah bagus.justru bagusan disini krena secara topografi ini tempat lebih tinggi.mantap soul."
+      }
+    ]
+  },
+  {
+    "id": "tugu-pal-putih",
+    "category": "Destinasi Wisata",
+    "name": "Tugu Pal Putih",
+    "description": "<p>Tugu Yogyakarta memiliki sejarah yang panjang dan merupakan salah satu ciri khas Yogyakarta. Tugu ini dulunya bernama Tugu Golong Gilig. Namun sekarang lebih dikenal dengan nama Tugu Pal Putih.</p><p>Berbeda dengan bentuknya yang sekarang, persegi panjang dengan ujung berulir meruncing, Tugu Golong Gilig berbentuk bulat panjang, dengan bola kecil di ujungnya. Rupa asli Tugu Golong Gilig dapat dilihat dari sudut jalan sebelah tenggara Tugu Pal Putih.</p>",
+    "picture": {
+      "link": "/assets/img/wisata/tugu-pal-putih.jpg",
+      "license": "© Alexander Adam / CC BY-SA 3.0"
+    },
+    "location": "Cokrodiningratan, Jetis, Kota Yogyakarta, Daerah Istimewa Yogyakarta.",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.06490221521!2d110.36486611477807!3d-7.782943694391058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a58373fffffff%3A0xffb2d5ffd8a9bd10!2sTugu%20Pal%20Putih!5e0!3m2!1sen!2sid!4v1624121936533!5m2!1sen!2sid",
+    "rating": "4.7",
+    "review": [
+      {
+        "name": "Budi Prasetya",
+        "text": "Tugu setelah revitalisasi (diresmikan Kamis, 17 Desember 2020) dg pedestrian,lengkap dg sarpras yg mendukung sektor pariwisata di zaman 4.0, sarpras utk pencegahan pandemi covid 19...keindahan yg tampak ktika tdk ada kabel yg bersliweran di atas jln raya di sekitar perempatan,penambahan lampu penerangan,bersih dr PKL. Minusnya: byk pengunjung yg tdk taat peraturan saat selfie di lokasi tugu berada shg membahayakan para pengguna jln yg lain."
+      },
+      {
+        "name": "Achmad Wasiludin",
+        "text": "Icon Jogja ini jadi primadona bagi mayoritas pengunjung. Belum sah rasanya kalau belum foto dengan tugu ini. Jadi silahkan nikmati setiap spot pada temat yg menjadi favorit dan rekomendasi untuk para pengunjung."
+      },
+      {
+        "name": "Ery Muluverie",
+        "text": "Sebelum ke Malioboro. Mampir sini dl buat foto2. Sekarang rame banget walau ud malam. Bisa menikmati kopi jos yg diangkringan sini. Udah lama banget g ke Jogja. Sampai malam pun masih byk yg nongkrong. Rame banget..  Jogja emang istimewa. Bisa buat jalan2 kesini ya gratis. Cuma bayar parkir aja. Banyak penjual oleh2 . Batik dan kaos byk pilihan. Mo kulineran juga banyak. Parkir e sampai Bank Indonesia. Dan kantor pos. Maju dikit udah sampai keraton Jogjakarta."
+      }
+    ]
+  },
+  {
+    "id": "candi-prambanan",
+    "category": "Destinasi Wisata",
+    "name": "Candi Prambanan",
+    "description": "<p>Candi Prambanan sama terkenalnya dengan Angkor Wat dan merupakan salah satu candi Hindu terbesar di Asia Tenggara. Tiga candi utama disebut Trimurti dan mengabadikan tiga dewa utama Trimurti: Siwa Sang Penghancur, Wisnu Sang Penjaga, dan Brahma Sang Pencipta. Siwa lebih diutamakan dibanding dua dewa Trimurti lain. Candi Siwa merupakan bangunan utama, terbesar dan tertinggi, setinggi 47 meter.</p>",
+    "picture": {
+      "link": "/assets/img/wisata/candi-prambanan.jpg",
+      "license": "© Ridwanpurwantobatam / CC BY-SA 4.0"
+    },
+    "location": "Jl. Raya Solo - Yogyakarta No. 16, Kranggan, Bokoharjo, Prambanan, Kabupaten Sleman, Daerah Istimewa Yogyakarta.",
+    "map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3953.355983463876!2d110.4892787!3d-7.7520153!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5ae3dbd859d1%3A0x19e7a03b25955a2d!2sPrambanan%20Temple!5e0!3m2!1sen!2sid!4v1624121993092!5m2!1sen!2sid",
+    "rating": "4.7",
+    "review": [
+      {
+        "name": "Didik Indra Pratama",
+        "text": "Destinasi wisata yang dikelola secara profesional, menyajikan pengalaman taman kelas dunia dengan kearifan lokal Indonesia, karena dikelola dengan baik tempatnya sangat rapi dan bersih. Pedagang juga ditata sangan rapi, semoga pandemi lekas berlalu sehingga wisata Prambanan bisa lekas pulih."
+      },
+      {
+        "name": "Halengkara Family",
+        "text": "Tempat wisata yg musti dicoba..menawarkan warisan sejarah yg perlu diketahui tuk generasi muda..tiket masuknya 50rb tuk dewasa dan 25 rb tuk anak2 (dibawah 11 tahun)..tempatnya bersih..dg prokes yg ketat..oya jgn lupa membawa payung apabila dtnya siang dan dilarang membawa makanan..kalo minuman diperbolehkan..siapkan ekstra energy tuk menempuh kawasan prambanan yg luas dg berjalan kaki (tdk seluas borobudur).."
+      },
+      {
+        "name": "Gaby Siahaan",
+        "text": "Tidak pernah bosan kesini. setiap jalan-jalan ke Yogyakarta pasti akan singgah liburannya kesini dulu. udah beberapa kali kesini tapi masih belum semua dijalanin karena waktunya yg dikit juga. makin berkembang juga candi Prambanan karena banyak tempat spot foto baru."
+      }
+    ]
+  },
+  {
+    "id": "monumen-jogja-kembali",
+    "category": "Destinasi Wisata",
+    "name": "Monumen Jogja Kembali",
+    "description": "<p>Monumen Yogya Kembali didirikan tanggal 29 Juni 1985, didahului dengan upacara adat penanaman kepala kerbau dan peletakan batu pertama oleh Sri Sultan Hamengkubuwono IX dan Sri Paduka Paku Alam VIII. Ide membangun tugu ini dicetuskan pada tahun 1983 oleh Kolonel Soegiarto selaku Walikota Yogyakarta. Nama Yogya terpilih kembali dengan maksud menjadi <em>tetenger</em> (peringatan) peristiwa bersejarah mundurnya tentara pendudukan Belanda dari ibukota Indonesia Yogyakarta pada waktu itu, 29 Juni 1949. Ini merupakan awal bebasnya bangsa Indonesia dari kekangan Belanda.</p>",
+    "picture": {
+      "link": "/assets/img/wisata/monumen-jogja-kembali.jpg",
+      "license": "© Crisco 1492 / CC BY-SA 3.0"
+    },
+    "location": "Jl. Ring Road Utara, Jongkang, Sariharjo, Ngaglik, Kabupaten Sleman, Daerah Istimewa Yogyakarta.",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.378756659736!2d110.36741811477785!3d-7.749590394414494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a58f99013c989%3A0x2a96db25b8ff4333!2sMonumen%20Yogya%20Kembali!5e0!3m2!1sen!2sid!4v1624122031017!5m2!1sen!2sid",
+    "rating": "4.5",
+    "review": [
+      {
+        "name": "Brigitta Handayani",
+        "text": "Wisata edukasi untuk mengenang pertempuran di Jogja. Parkir mobil 5k, HTM 15k/orang. Ada 3 lantai, lantai 1 untuk melihat benda² memorabilia perjuangan, lantai 2 untuk melihat diorama, lantai 3 untuk mendoakan para pahlawan dan meditasi. Petugasnya juga ramah²."
+      },
+      {
+        "name": "Firmanita Ayu",
+        "text": "Lahan parkir luas dan lahan di sekeliling museumnya pun luas. Ada kolam ikan mengelilingi gedung dan disediakan pakan ikan hanya tinggal membayar 1000 per plastik. Koleksi museum masih terawat dengan baik. Hanya bagian lantai 2 dan 3 museum terasa panas, sepertinya tidak dinyalakan acnya."
+      },
+      {
+        "name": "Andika Nugraha",
+        "text": "Salah satu tempat untuk mengenang sejarah kemerdekaan RI. Terdapat 3 lantai, masuk ke kiri menuju lantai 1 untuk melihat koleksi peninggalan para pejuang. Lantai 2 berisi panorama yang disertai audio, kemudian lantai 3 tempat mengenang dan mendoakan para prajurit yang gugur."
+      }
+    ]
+  },
+  {
+    "id": "pantai-parangtritis",
+    "category": "Destinasi Wisata",
+    "name": "Pantai Parangtritis",
+    "description": "<p>Pantai Parangtritis merupakan pantai di Yogyakarta yang paling diminati oleh wisatawan. Pantai ini tidak pernah sepi dikunjungi wisatawan lokal maupun mancanegara. Sebelum ada pantai lain, pantai ini merupakan pionir dan bahkan menjadi simbol pantai di Bantul, Yogyakarta.</p><p>Pantai ini dikenal oleh semua orang, meski hanya mendengar nama pantai karena popularitasnya saja sudah melejit. Pantai pasir hitam ini hanya berjarak 17 km dari pusat kota Yogyakarta. Wisatawan berduyun-duyun ke pantai ini untuk menyaksikan indahnya matahari terbenam. Karena pemandangannya yang luar biasa, tempat ini sering digunakan sebagai tempat pemotretan pernikahan, ujung timur Pantai Parangtritis menjadi lokasi yang populer untuk foto pernikahan, karena terdapat koloni karang yang sangat indah di sini.</p>",
+    "picture": {
+      "link": "/assets/img/wisata/pantai-parangtritis.jpg",
+      "license": "© Midori / CC BY-SA 3.0"
+    },
+    "location": "Parangtritis, Kretek, Kabupaten Bantul, Daerah Istimewa Yogyakarta.",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31605.94514991485!2d110.31126171881465!3d-8.025398930129219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7b00975eac533d%3A0x351bfe1453e22e36!2sPantai%20Parangtritis!5e0!3m2!1sid!2sid!4v1624122068495!5m2!1sid!2sid",
+    "rating": "4.5",
+    "review": [
+      {
+        "name": "Rina Rahmawati",
+        "text": "Pas kesini rame banget sama pengunjung. Tapi gak padat juga. Tiket masuk 10k. Pemandangannya indah banget, tersedia berbagai fasilitas. Ada delman juga. Banyak penjual makanan dan aksesoris serta souvenir. Disarankan pake kacamata, agar gk silau dan kelilipan. Soalnya anginnya kenceng banget pas dipinggir pantai, udara juga panas. Pasir pantai warna item, ombak lumayan gede. Keren bangettttt"
+      },
+      {
+        "name": "Maria Brassinga",
+        "text": "Salah satu pantai andalan wisata di Yogyakarta. Pantainya luas dengan ombak yang bersahabat. Sunset dan sunrise sangat indah di lihat dari sini. Ada kolam renangnya, keliling berbayar dengan kereta kuda, Jeep & ATV. Banyak toilet berbayar, toko souvernir, warung makan & penginapan disekitar pantai."
+      },
+      {
+        "name": "Yosi Sulastri",
+        "text": "Bagi Anda pemburu matahari terbenam, datanglah ke sini. Sebuah tempat yang mempesona untuk menikmatinya. Pasir pantai yang hitam legam menambah kesan gagah. Wah, sungguh, Parangtritis memang pantai yang gagah menurut saya."
+      }
+    ]
+  },
+  {
+    "id": "bukit-paralayang-watugupit",
+    "category": "Destinasi Wisata",
+    "name": "Bukit Paralayang Watugupit",
+    "description": "<p>Pesisir pantai yang panjang, langit yang biru, deburan ombak yang mengejar hingga mentari sore adalah kombinasi sempurna untuk menghilangkan penat. Salah satu tempat yang menawarkan panorama keindahan sunset seperti itu adalah di Daerah Istimewa Jogjakarta. , yaitu Bukit Paralayang Watugupit. destinasi wisata ini terletak di Dusun Watugupit, Desa Giricahyo, Kecamatan Purwosari, Kabupaten Gunungkidul. Jarak dari kota Yogyakarta sekitar 32 kilometer dengan waktu tempuh sekitar satu jam. tebing Bukit Paralayang Watugupit terletak di kawasan pegunungan di sebelah timur Pantai Parangtritis.</p>",
+    "picture": {
+      "link": "/assets/img/wisata/bukit-paralayang-watugupit.jpg",
+      "license": "© Maulidana / CC BY-SA 4.0"
+    },
+    "location": "Area Hutan, Giricahyo, Purwosari, Kabupaten Gunung Kidul, Daerah Istimewa Yogyakarta.",
+    "map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3950.7289856506286!2d110.3459122!3d-8.0268551!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7baa1254b588c1%3A0xd78b48bf093653cc!2sBukit%20Paralayang%20Watugupit!5e0!3m2!1sen!2sid!4v1624122115058!5m2!1sen!2sid",
+    "rating": "4.7",
+    "review": [
+      {
+        "name": "Chaca Billa",
+        "text": "kalo mo kesini,jangan lupa cek kondisi kendaraan anda,harus benar² perform fit ,dan yg paling penting pastikan rem anda berfungsi dengan baik. krn banyak tanjakan yg tinggi dan turunan yg curam saat mo kembali. tapi view nya indah saat sore hari,untuk hunting sunset."
+      },
+      {
+        "name": "Fahrul Galih Santosa",
+        "text": "Tempat yang nyaman dan apik, disini kita disuguhkan pemandangan pantai parangtritis dari atas bukit. Agar leluasa memilih tempat, waktu yang pas untuk datang kesini sekitar pukul 16.00 WIB dan jika cuaca sedang cerah kita dapat menikmati  'moment' sunset dengan jelas."
+      },
+      {
+        "name": "Yuliana Lufi Prakosa",
+        "text": "Tempat yang cocok untuk melihat sunset di daerah selatan. Tepatnya dekat dengan Pantai Parangtriris Yogyakarta. Pastikan kendaraan mumpuni buat jalan yang nanjak poll.Hati-hati kalau kesini sendirian karena yang lain bawa pasangan. haha"
+      }
+    ]
+  },
+  {
+    "id": "air-terjun-sri-gethuk",
+    "category": "Destinasi Wisata",
+    "name": "Air Terjun Sri Gethuk",
+    "description": "<p>Air terjun Sri Gethuk unik dan berbeda dari air terjun lain di Yogyakarta. Air terjun Sri Gethuk terletak di atas batu karang dan di sampingnya terdapat sungai. Oleh karena itu, jika ingin mengunjungi air terjun Sri Gethuk, Anda harus berjalan kaki sekitar 700 meter menyusuri sungai. Jangan khawatir, Anda akan mendapatkan perahu yang terbuat dari drum yang dibuat oleh perahu ini oleh manajer kreatif. Anda akan dibawa untuk menikmati pemandangan unik di sepanjang sungai yang eksotis.</p>",
+    "picture": {
+      "link": "/assets/img/wisata/air-terjun-sri-gethuk.jpg",
+      "license": "© Thomas Fuhrmann / CC BY-SA 4.0"
+    },
+    "location": "Mungguran II, Bleberan, Playen, Kabupaten Gunung Kidul, Daerah Istimewa Yogyakarta.",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.5415081186457!2d110.48713721477907!3d-7.942857444278744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a52c5a2ffbded%3A0x1b21536ea267bf1!2sSri%20Gethuk%20Waterfall!5e0!3m2!1sen!2sid!4v1624122150359!5m2!1sen!2sid",
+    "rating": "4.4",
+    "review": [
+      {
+        "name": "Arina Rakhmawati",
+        "text": "Untuk menuju air terjun bisa jalan kaki atau naik perahu. Tiket perahu 10000 rupiah/orang PP. Pemandangannya bagus. Air sungainya hijau. Kalau ingin berenang harus pakai pelampung dengan menyewa seharga 20000 rupiah/orang, karena kedalaman air kurang lebih lima meter. Toilet gratis untuk di bagian bawah. Banyak warung penjual gorengan, nasi pecel, wader, thiwul, dan kelapa bakar."
+      },
+      {
+        "name": "Fariz Ardianto",
+        "text": "Overall 7/10. Tempatnya enak banget buat berenang, sungainya ijo, bisa lompat2 juga 3 meter an. Tapi, bayarnya terkesan bertubi-tubi. Masuk awal 15k sama motor, terus bisa naik perahu atau jalan, nah mau renang sewa lg pelampung. Semuanya wajar aja sampe sewa pelampungnya harus sepaket sama sewa perahu untuk balik, yah kecewa. Gak bisa di ecer pelampungnya hiks. Jadi terkesan mahal.."
+      },
+      {
+        "name": "Rahmat Aditya",
+        "text": "Bagus si. Cuma mungkin akses untuk kendaraan roda 4 perlu diperlebar. Pemandangan bagus pas udah sampai air terjunya. Suasana tebing jalur yang dilalui kapal/getek mengingatkan suatu tempat yang menjadi latar film 'wirosableng' yang dibintangi Vino G bastian."
+      }
+    ]
+  },
+  {
+    "id": "tamansari",
+    "category": "Destinasi Wisata",
+    "name": "Tamansari",
+    "description": "<p>Tamansari adalah salah satu bangunan milik kesultanan Yogyakarta yg difungsikan menjadi destinasi wisata. Tetapi selain menjadi destinasi wisata, Tamansari masih dipakai menjadi loka ritual oleh famili raja.</p><p>Dengan bentuk bangunan arsitektur ala Portugis-Jawa, bangunan pada taman ini sebagai daya tarik utama. Meskipun kini  bangunan tidak lagi utuh seperti ketika masih difungsikan menjadi taman kesultanan, tetapi tetap saja aura estetika terpancar sangat kuat dari bangunan bangunan pada taman ini.</p>",
+    "picture": {
+      "link": "/assets/img/wisata/tamansari.jpg",
+      "license": "© CEphoto, Uwe Aranas / CC BY-SA 3.0"
+    },
+    "location": "Patehan, Kraton, Kota Yogyakarta, Daerah Istimewa Yogyakarta.",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.8086815896836!2d110.35726941477823!3d-7.810067294371972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5793d0c2cf2b%3A0x276a21f8a01cbe13!2sTaman%20Sari!5e0!3m2!1sen!2sid!4v1624122239151!5m2!1sen!2sid",
+    "rating": "4.3",
+    "review": [
+      {
+        "name": "May Astinasari",
+        "text": "Tempat wisata Tamansari ini seakan tidak pernah sepi pengunjung,tiket masuk harga pelajar udah sekalian pemandu, mematuhi protokol kesehatan,sebelum masuk masing masing regu diberi arahan tentang berwisata di Tamansari selama pandemi masuknya pengunjung pun ada jeda beberapa menit untuk menjaga jarak dengan regu yang lain. Penjelasan sejarah di setiap tempatnya juga sangat jelas dan mudah dimengerti. Respect lah sama semua petugasnya. Terimakasih Tamansari."
+      },
+      {
+        "name": "Fadhilan",
+        "text": "Masuk dipisah perkelompok 5-10 orang. Di weekday pengunjung tidak terlalu ramai sehingga harus ngantri dulu nunggu ngumpulin orang. Sebelum masuk wajib pwriksa suhu + cuci tangan + pake masker. Masuk wajib didampingi guide, bayar 100k per grup. Waktu visite terbatas karena mencegah kerumunan kayanya. Siapkan kaki karena kelilingnya lumayan bikin pegel. Beberapa room ga boleh dimasukin sekarang."
+      },
+      {
+        "name": "Novi Fitriani",
+        "text": "Kalau datang pas pandemi gini wajib pake guide, masuknya harus berkelompok maksimal 8 orang, minimal 5 orang. Untuk yg datang dibawah 5 orang juga masih bisa masuk nanti dibuatkan kelompok dan guide dibayar patungan. Sayang banget pas dateng kesini sumurnya ditutup. Untuk prokesnya dijalankan dengan sangat baik."
+      }
+    ]
+  },
+  {
+    "id": "heha-sky-view",
+    "category": "Destinasi Wisata",
+    "name": "HeHa Sky View",
+    "description": "<p>HeHa Sky View merupakan salah satu tempat wisata terbaru di Yogyakarta dan menjadi daya tarik terpopuler saat ini. Apakah Anda menginginkan foto aesthetic seperti selebgram atau foto di atap berlantai kaca? Anda bisa! Terletak di Yogyakarta yang romantis, Heha Skyview merupakan objek wisata dengan tiga ciri utama. Menurut akun Instagram mereka, tiga fitur utama Heha Sky View adalah selfie, restoran, dan warung makan. HeHa Sky View Hotel terletak di Pegunungan Gunung Kidul, sekitar 40 menit dari pusat kota Yogyakarta. Meski membutuhkan waktu 40 menit berkendara ke Yogyakarta, kenyamanan HeHa Sky View akan membayar lunas kepenatan berkendara Anda.</p>",
+    "picture": {
+      "link": "/assets/img/wisata/heha-sky-view.jpg",
+      "license": "© Alexander Adam / CC BY-SA 3.0"
+    },
+    "location": "Jl. Dlingo-Patuk No. 2, Patuk, Kabupaten Gunung Kidul, Daerah Istimewa Yogyakarta.",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.4335161374192!2d110.47613531477856!3d-7.849614394344249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a512d80f3246d%3A0xf671a280cf1b6f55!2sHeHa%20Sky%20View!5e0!3m2!1sen!2sid!4v1624122276546!5m2!1sen!2sid",
+    "rating": "4.4",
+    "review": [
+      {
+        "name": "Dzerlina S. R.",
+        "text": "Bagus karena pemandangannya memang sudah bagus dari atas. Penataannya oke. Untuk spot foto bayar lagi. Kedai makanan banyak dan harga standar wisata hahaha. Tapi rame banget, nggak bisa jaga jarak di masa pandemi ini."
+      },
+      {
+        "name": "Aftina Muslihati",
+        "text": "Bagus2 spot fotonya, terutama malam. Tapi siap2 merogoh kocek lebih dalam krn dikenakan biaya lg per org 10rb - 20 rb. Belum termasuk hasil fotonya 5 rb per pic. Pilihan makanan jg banyak, harga yaa namanya tempat wisata standard nya pasti lebih Mahal. Cuma sayang terlalu bnyk orang jd kurang nyaman."
+      },
+      {
+        "name": "Sigit Utomo",
+        "text": "Bagus satu2di gunung kidul viewnya bagus kalo malam liat kota jogykaarta...harga tiket 15 rb doang jajanna standar lah tiket parkir 5 rb umum vip 20rb tutup jam 11 malem tp kalo lagi covid jam 21.00 dah tutup kalo ke gunung kidul dr pantai malemnya main kesini bagus tuk foto2siang jg bagus banyak permainannya jg tuk anak2"
+      }
+    ]
+  },
+  {
+    "id": "hutan-pinus-mangunan",
+    "category": "Destinasi Wisata",
+    "name": "Hutan Pinus Mangunan",
+    "description": "<p>Hutan Pinus Mangunan Dlingo Bantul merupakan salah satu hutan pinus alternatif di samping hutan pinus top selfie di Magelang. lokasi hutan pinus Mangunan memang dekat dengan tempat wisata seperti perkebunan Mangunan dan ruang makan raja-raja Kesultanan Mataram Yogyakarta. hutan pinus Mangunan adalah daerah terbuka yang sangat menawan. Pepohonan yang menjulang tinggi akan menjadi daya tarik tersendiri bagi pasangan untuk berfoto selfie romantis di hutan pinus Mangunan Bantul. Hutan pinus Mangunan juga menjadi salah satu tujuan wisata para pesepeda dari Yogyakarta. Tak berbeda jauh dengan lokasi Keraton Bandung yang sering menjadi tempat nongkrong para pecinta sepeda gunung, jalurnya akan menantang bagi para pesepeda.</p>",
+    "picture": {
+      "link": "/assets/img/wisata/hutan-pinus-mangunan.jpg",
+      "license": "© Eko Punto Sadewo / CC BY-SA 4.0"
+    },
+    "location": "Hutan Pinus, Sukorame, Mangunan, Imogiri, Kabupaten Bantul, Daerah Istimewa Yogyakarta.",
+    "map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15806.59301968157!2d110.4239037!3d-7.9317564!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a536fb6468009%3A0x9b7a35d2f79a0813!2sHutan%20Pinus%20Mangunan!5e0!3m2!1sen!2sid!4v1624122303239!5m2!1sen!2sid",
+    "rating": "4.7",
+    "review": [
+      {
+        "name": "Ning S.",
+        "text": "Wisata hutan pinus Mangunan salah satu tempat wisata murah meriah di kawasan yogyakarta.parkir luas untuk mobil 5k,motor dibawah harga itu.tiket masuk per orang 3k.disini banyak pohon Pinus yang sangat menjulang tinggi,dan banyak spot area untuk foto foto bareng teman maupun keluarga. Suasana sejuk dan nyaman."
+      },
+      {
+        "name": "Yullina Trimulatsih",
+        "text": "Saya memang suka dengan yang namanya alam. Main kesini bagi saya kaya yang dapat hadiah. Bener-bener sejuk, alami, bersih dan terawat. Tiket masuk juga sangat murah. Disini juga tersedia toilet. Jadi lengkap. Selain pohon Pinus, ada banyak bunga-bunga. Warna-warni dan banyak juga jenisnya. Selain bunga, ada juga kursi dan meja kayu yang banyak disediakan. Rute jalan kaki juga disediakan. Tempat foto-foto yang biasa sampai yang menguji nyali dengan naik keatas pohon dan tangga juga ada. Dari ketinggian kita bisa melihat pemandangan ke sekeliling yang masih bener-bener alami. Enggak kapok lah main ke sini."
+      },
+      {
+        "name": "Satria Utama",
+        "text": "45-60 menit dari kota yogyakarta. Cocok buat melepas penat dari hiruk pikuk suasana kota. Adem, angin semilir, tenang. Gak banyak atraksi sih karena pemandangan dari sini udah bagus banget. Cobain juga foto bertumpuk disini. Pulang dari sini bisa makan sate klathak pak pong atau pak sobari yang dijadiin syuting AADC 2. Tiketnya murah 5rb-10rb. Dan tolong jangan merokok disini. Sayangi hutan."
       }
     ]
   }

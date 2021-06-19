@@ -1,12 +1,69 @@
 [
   {
+    "id": "universitas-gadjah-mada",
+    "category": "Lembaga Pendidikan",
+    "name": "Universitas Gadjah Mada",
+    "description": "<p>UGM merupakan universitas negeri Indonesia, didirikan pada 19 Desember 1949 oleh Pemerintah Republik Indonesia berdasar peraturan Pemerintah nomor 23 tahun 1949.</p><p>UGM juga memiliki reputasi yang sangat baik, apalagi keberadaannya sendiri di Daerah Istimewa Yogyakarta menjadi suatu hal yang sangat menarik sehingga UGM menjadi salah satu Perguruan Tinggi terfavorit.</p>",
+    "picture": {
+      "link": "/assets/img/pendidikan/universitas-gadjah-mada.jpg",
+      "license": "© Risanprasetyo, Febri Ady Prasetyo / CC BY-SA 4.0"
+    },
+    "location": "Bulaksumur, Caturtunggal, Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta.",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.173874099104!2d110.3753111149078!3d-7.771379379244472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59b2d4729729%3A0xac4d7b5fcf34f8e4!2sGadjah%20Mada%20University!5e0!3m2!1sen!2sid!4v1624081860673!5m2!1sen!2sid",
+    "rating": "4.7",
+    "review": [
+      {
+        "name": "Yohana Mimi",
+        "text": "Universitas kebanggaan warga Yogyakarta karena prestasi dan nilai² sejarahnya. Mahasiswanya berasal dari berbagai daerah, suku bangsa, dan bahasa. Terdiri dari fakultas² yang lokasinya terpencar, tidak dalam satu kawasan. Karena letak gedung²nya cukup jauh jika ditempuh dengan jalan kaki namun terlalu dekat jika mau dicapai dengan kendaraan bermotor roda empat, maka disediakan sepeda yang bisa dipinjam untuk transportasi jarak dekat dalam wilayah kampus."
+      },
+      {
+        "name": "Muhammad Riza Hafizi",
+        "text": "Kampus tercinta, dikampus ini aku ditempa secara keilmuan maupun kepribadian sehingga menjadi kuat dalam menghadapi masa depan yang penuh tantangan. Terimakasih Bapak dan Ibu dosen semuanya semoga selalu diberikan kesehatan dan rezeki yang luas sehingga proses transfer pengetahuan terus berlanjut. Aamiin."
+      },
+      {
+        "name": "Farida Indonesia",
+        "text": "PTN terkemuka nomer 1 di Indonesia dan salah satu terbaik di asia, banyak ilmuwan terlahir dan hasil karya dari Universitas Gadjah Mada, barakallah berkesempatan menjadi keluarga besar UGM. Terima kasih."
+      }
+    ]
+  },
+  {
+    "id": "institut-seni-indonesia",
+    "category": "Lembaga Pendidikan",
+    "name": "Institut Seni Indonesia",
+    "description": "<p>Institut Seni Indonesia (ISI) merupakan pusat unggulan di bidang pendidikan tinggi seni, yang bertujuan untuk melatih para sarjana yang kreatif, inovatif dan produktif sebagai seniman Indonesia berskala dunia.</p><p>ISI berdiri pada tanggal 23 Juli 1984 berdasarkan Keputusan Presiden RI No. 39 tahun 1984 tanggal 30 Mei 1984.</p>",
+    "picture": {
+      "link": "/assets/img/pendidikan/institut-seni-indonesia.jpg",
+      "license": "© Lalu H. Bagus, Josep Risaldi / CC BY-SA 4.0"
+    },
+    "location": "Jl. Parangtritis KM. 6, Glondong, Panggungharjo, Sewon, Kabupaten Bantul, Daerah Istimewa Yogyakarta.",
+    "map": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3952.4136798073164!2d110.35436011490849!3d-7.851699880210083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1624082904594!5m2!1sid!2sid",
+    "rating": "4.7",
+    "review": [
+      {
+        "name": "Reva Visi Bangsa",
+        "text": "Kampus seni di Yogyakarta. Terletak di jalan Parangtritis, Sewon. Tempatnya lumayan luas. Terdapat 3 fakultas, fakultas Seni Rupa, Fakultas Seni Pertunjukan, dan Fakultas Seni Media Rekam. Dari tiga fakultas terdapat banyak jurusan dan prodi. Fasilitas lengkap, masjid, student center, rektorat, teater arena, pendopo karawitan, kantin yang sangat banyak, perpustakaan, galeri cukup banyak, dll."
+      },
+      {
+        "name": "Firdausa",
+        "text": "Kampus terdapat di dekat pemukiman, tempatnya rindang, ke sini liat pertunjukkan tari. Penarinya benar benar bagus, pantas disebut sekilah seni terbaik yang ada di Jogja. Menciptakan berbagai seniman yang terkenal, satpamnya juga ramah. Mau diminta bantuan cari lakban. Mahasiswa juga ramah."
+      },
+      {
+        "name": "Tri Hartati",
+        "text": "Kampus seni terbaik menurutku, apalagi kalau di <em>boulevard</em> pas malam pemandangannya bagus banget. Kalau di belakang kampus, area UPT dan rektorat lama paling tenang buat cari inspirasi sambil WiFi-an ditemani hiburan dari mahasiswa yang latihan."
+      }
+    ]
+  },
+  {
     "id": "madrasah-muallimin-muhammadiyah",
     "category": "Lembaga Pendidikan",
     "name": "Madrasah Mu'allimin Muhammadiyah",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla diam mi, imperdiet ut auctor ac, tempus vel quam. Morbi eu nibh cursus, lacinia nisl quis, scelerisque neque. Nam ut dui risus. Pellentesque scelerisque tortor nisl, nec dapibus orci tincidunt eget. In egestas ligula diam, sit amet pellentesque sem viverra quis.",
-    "picture": "",
-    "location": "Jl. Letjen S. Parman No. 68, Patangpuluhan, Wirobrajan, Kota Yogyakarta.",
-    "map": "https://goo.gl/maps/P8Qt1rsSth6L3dJQA",
+    "description": "<p>Didirikan oleh Kyai Haji Ahmad Dahlan pada tahun 1918 dengan nama Qismul Arqa di Kauman, Jogja. Seiring berkembanya waktu, Qismul Arqa berubah nama terus menerus hingga akhirnya sekarang bernama Madrasah Mu’allimin Muhammadiyah. Perubahan nama menjadi Madrasah Mu’allimin Muhammadiyah sendiri terjadi pada tahun 1941 berdasar dari hasil Kongres Muhammadiyah ke-23 di Yogyakarta.</p>",
+    "picture": {
+      "link": "/assets/img/pendidikan/madrasah-muallimin-muhammadiyah.jpg",
+      "license": "© Eko Prasetiyo / CC BY-SA 3.0"
+    },
+    "location": "Jl. Letjen S. Parman No. 68, Patangpuluhan, Wirobrajan, Kota Yogyakarta, Daerah Istimewa Yogyakarta.",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.83210305036!2d110.34908251490815!3d-7.807591779678535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a57ed83aeaf6f%3A0xb07c4c5330d1601e!2sMadrasah%20Mu&#39;allimin%20Muhammadiyah%20Yogyakarta!5e0!3m2!1sen!2sid!4v1624081749577!5m2!1sen!2sid",
     "rating": "4.7",
     "review": [
       {
@@ -20,6 +77,60 @@
       {
         "name": "Muhammad Sholehuddin Fathoni",
         "text": "Sistem pendidikan di sini sangat baik. Sangat di rekomendasikan untuk orang tua yang mencari tempat pendidikan untuk anak-anak nya. Karena di sini mengajarkan kebaikan untuk di terapkan sehari-hari dan mengajarkan penghafalan Qur'an."
+      }
+    ]
+  },
+  {
+    "id": "smk-negeri-2-yogyakarta",
+    "category": "Lembaga Pendidikan",
+    "name": "SMK Negeri 2 Yogyakarta",
+    "description": "<p>Sekolah Menengah Kejuruan (SMK) Negeri 2 Yogyakarta lebih dikenal dengan nama STM Jetis (STM 1 Yogyakarta). SMK Negeri 2 Yogyakarta adalah salah satu sekolah menengah kejuruan tertua pada Indonesia dan relatif punya nama pada global industri juga pemerintahan. Banyak lulusannya beredar pada macam-macam daerah di Indonesia, sanggup memimpin pada bidang industri juga pemerintahan.</p>",
+    "picture": {
+      "link": "/assets/img/pendidikan/smk-negeri-2-yogyakarta.jpg",
+      "license": "© Ega Zulfikar / CC BY-SA 3.0"
+    },
+    "location": "Jl. A. M. Sangaji No. 47, Cokrodiningratan, Jetis, Kota Yogyakarta, Daerah Istimewa Yogyakarta.",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.120293654356!2d110.36518091490782!3d-7.777067579312489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a58373fffffff%3A0xa4ec1ca156555926!2sSMK%20Negeri%202%20Yogyakarta!5e0!3m2!1sid!2sid!4v1624083378240!5m2!1sid!2sid",
+    "rating": "4.5",
+    "review": [
+      {
+        "name": "Renyta Yuliastuti",
+        "text": "Bangunannya seperti bentuk bangunan rumah sakit. Tempatnya strategis dan mudah ditemukan. Lahan parkir lumayan luas. Sempat digunakan untuk ujian tulis masuk universitas. Pintu gerbangnya lebar. Rindang tempatnya. Banyak tempat untuk duduk beristirahat (nyaman)."
+      },
+      {
+        "name": "Tora Aji",
+        "text": "Salah satu sekolah kejuruan favorit di Jogja, sekaligus cagar budaya. Tempat sejuk dan nyaman untuk belajar. Pengajar yang memiliki kompetensi di bidang keahliannya. Sangat di anjurkan bagi teman teman yang ingin melanjutkan sekolah dan memilih sekolah kejuruan, sangat <em>recommended</em>. Karna saya juga salahsatu alumni dari SMK 2 Yogyakarta."
+      },
+      {
+        "name": "Rahmad Noor Syahid",
+        "text": "Sekolah dengan lulusan berkualitas. Hebat pokoknya. Selain itu sekolah ini merupakan salah satu cagar budaya di Yogyakarta. Dikarenakan tidak lepasnya sejarah pembangunan sekolah ini sejak masa penjajahan belanda."
+      }
+    ]
+  },
+  {
+    "id": "sd-muhammadiyah-suronatan",
+    "category": "Lembaga Pendidikan",
+    "name": "SD Muhammadiyah Suronatan",
+    "description": "<p>Sekolah Dasar (SD) Muhammadiyah Suronatan merupakan sekolah Muhammadiyah tertua, awal mulanya bernama Standart School, berdiri tahun 1918, didirikan oleh pendiri Persyarikatan Muhammadiyah, K. H. Ahmad Dahlan.</p><p>SD Muhammadiyah Suronatan, secara nasional sudah dikenal dan sering menjadi tempat kunjungan studi banding serta studi wisata. Hal ini lantaran adanya nilai historis dari SD Muhammadiyah tertua, di samping bermacam prestasi sekolah lainnya.</p>",
+    "picture": {
+      "link": "/assets/img/pendidikan/sd-muhammadiyah-suronatan.jpg",
+      "license": "© Dewi Johan / CC BY-SA 3.0"
+    },
+    "location": "Jl. Suronatan, Notoprajan, Ngampilan, Kota Yogyakarta, Daerah Istimewa Yogyakarta.",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.8842137139027!2d110.35799391490815!3d-7.802081179612309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a578c49dd8e9b%3A0x6a8c1b5b8ebfb2e3!2sSD%20Muhammadiyah%20Suronatan!5e0!3m2!1sid!2sid!4v1624084344060!5m2!1sid!2sid",
+    "rating": "4.8",
+    "review": [
+      {
+        "name": "Irzan Tan",
+        "text": "Saya alumi tahun 1982. Saya sangat rindu dg suasana saat sekolah di sini, yg masih agak ingat Guru Bapak Kamil, Bapak Hardjo. Di sini saya ditempa budi pekerti. Terimakasih guruku semua engkaulah pahlawan tanpa tanda jasa."
+      },
+      {
+        "name": "Satria M. H.",
+        "text": "Saya sebagai alumni, merasakan di SD ini sangatlah nyaman, anaknya cerdas dan fasilitas sekolah ini lengkap."
+      },
+      {
+        "name": "Erni Masitoh",
+        "text": "Salah satu SD favorit di kota Yogyakarta..."
       }
     ]
   }
