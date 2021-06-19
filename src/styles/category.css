@@ -35,6 +35,7 @@ main.category .search__input .search-query {
   max-width: 550px;
   font-size: 18px;
   background-color: #ffffff;
+  transition: box-shadow 0.5s;
   margin: 0 auto;
   padding: 15px;
   border: none;
@@ -44,6 +45,10 @@ main.category .search__input .search-query {
 main.category .search__input .search-query:focus {
   outline: none;
   box-shadow: 0 0 0 4px #e400001a;
+}
+
+main.category .search__input .search-query:hover {
+  box-shadow: 10px 10px 25px 0 #e7ebf5;
 }
 
 main.category .content-wrapper {
@@ -84,6 +89,7 @@ main.category .item__list .item__node {
   text-decoration: none;
   max-width: 400px;
   width: 100%;
+  aspect-ratio: 5 / 1;
   margin: 0 auto;
   padding: 15px;
   position: relative;
@@ -138,6 +144,7 @@ main.category .item__node .node__details {
 main.category .node__details h3 {
   font-size: 20px;
   font-weight: 600;
+  line-height: 1.3;
 }
 
 main.category .node__details .node__description {
