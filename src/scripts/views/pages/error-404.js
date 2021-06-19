@@ -6,7 +6,7 @@ const Error404 = {
 
     document.querySelector('header').classList.add('semi');
     document.querySelector('a.home').classList.remove('menu-active');
-    document.querySelector('a.explore').classList.add('menu-active');
+    document.querySelector('a.explore').classList.remove('menu-active');
 
     document.title = 'Halaman Tidak Ditemukan | JogjaPedia';
     return `
