@@ -51,7 +51,8 @@ body {
 }
 
 .menu-active {
-  color: #e40000 !important;
+  color: #ffffff !important;
+  background-color: #e40000;
 }
 
 header {
@@ -179,22 +180,23 @@ nav .nav__list a {
   display: inline-block;
   margin: 0 2px;
   padding: 0.8rem 0.7rem 0.8rem 0.5rem;
-  border-radius: 0.4rem;
+  border-radius: 0.7rem;
   color: #000000;
-  -webkit-transition: color 0.5s ease;
-  -o-transition: color 0.5s ease;
-  transition: color 0.5s ease;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
   font-weight: 600;
   text-decoration: none;
 }
 
 nav .nav__list a:focus {
   outline: none;
-  box-shadow: 0 0 0 2px #aaaaaa80;
+  box-shadow: 0 0 0 2px #e400004d;
 }
 
 nav .nav__list a:hover {
-  color: #e40000 !important;
+  color: #ffffff !important;
+  background-color: #e40000;
 }
 
 nav .nav__list .material-icons {
@@ -343,11 +345,6 @@ footer div.category a:hover {
 
   nav .nav__list a {
     padding: 0.8rem 1.4rem 0.8rem 1rem;
-    border-radius: 0.4rem;
-    color: #000000;
-    -webkit-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
   }
 
   footer div {

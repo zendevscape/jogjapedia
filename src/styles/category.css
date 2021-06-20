@@ -42,13 +42,13 @@ main.category .search__input .search-query {
   border-radius: 15px;
 }
 
+main.category .search__input .search-query:hover {
+  box-shadow: 10px 10px 25px 0 #e7ebf5;
+}
+
 main.category .search__input .search-query:focus {
   outline: none;
   box-shadow: 0 0 0 4px #e400001a;
-}
-
-main.category .search__input .search-query:hover {
-  box-shadow: 10px 10px 25px 0 #e7ebf5;
 }
 
 main.category .content-wrapper {
