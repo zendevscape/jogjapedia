@@ -121,7 +121,7 @@ const Home = {
             </div>  
             <div class="info">
               <p>Pembaruan terakhir: <b>${new Date(Date.now()).toLocaleDateString('id-ID', {day: 'numeric', month: 'long', year: 'numeric'})}</b></p>
-              <p>Sumber: <b><a href="https://kawalcorona.com/" target="_blank" rel="noopener">Kawal Corona</a></b></p>
+              <p>Sumber: <b><a href="https://js-indo.herokuapp.com/docs/corona" target="_blank" rel="noopener">JS Indo</a></b></p>
             </div>
           </div>
         </section>
@@ -150,9 +150,9 @@ const Home = {
       });
 
       const covidData = await CovidDataSource.getData();
-      const confirmed = covidData.Kasus_Posi;
-      const recovered = covidData.Kasus_Semb;
-      const deceased = covidData.Kasus_Meni;
+      const confirmed = covidData.positive;
+      const recovered = covidData.recovered;
+      const deceased = covidData.deaths;
       const active = confirmed - recovered - deceased;
 
       document.querySelector('.confirmed .counter').innerHTML = confirmed.toLocaleString('id-ID');
