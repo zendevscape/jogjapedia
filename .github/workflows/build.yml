@@ -1,4 +1,5 @@
-name: Build and Deploy
+# yaml-language-server: $schema=https://json.schemastore.org/github-workflow
+name: Deploy
 
 on:
   push:
@@ -6,7 +7,8 @@ on:
       - master
 
 jobs:
-  build-and-deploy:
+  deploy:
+    name: Deploy
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
