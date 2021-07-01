@@ -257,16 +257,12 @@ footer div.about p {
 }
 
 footer div.page p,
-footer div.category p {
+footer div.category p,
+footer div.contact p {
   font-size: 16px;
   font-weight: 600;
   line-height: 1.5;
   margin-bottom: 10px;
-}
-
-footer div.page ul,
-footer div.category ul {
-  list-style: none;
 }
 
 footer div.page li,
@@ -287,6 +283,25 @@ footer div.category a:hover {
   color: #e40000;
 }
 
+footer div.contact ul {
+  margin-bottom: 10px;
+}
+
+footer div.contact ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+footer div.contact td {
+  padding-bottom: 10px;
+}
+
+footer div.contact td .material-icons-outlined {
+  vertical-align: text-bottom;
+  margin-right: 10px;
+  font-size: 26px;
+}
+
 @media screen and (min-width: 768px) {
   header h1 {
     padding: 0.2rem 0;
@@ -295,6 +310,10 @@ footer div.category a:hover {
   footer div.page,
   footer div.category {
     grid-area: span 1 / span 2 / auto / auto;
+  }
+
+  footer div.contact {
+    grid-area: span 1 / span 4 / auto / auto;
   }
 }
 
@@ -347,7 +366,22 @@ footer div.category a:hover {
     padding: 0.8rem 1.4rem 0.8rem 1rem;
   }
 
-  footer div {
-    grid-area: span 1 / span 2 / auto / auto;
+  footer {
+    display: grid;
+    grid-template-columns: repeat(17, 1fr);
+  }
+
+  footer div.about {
+    grid-area: span 1 / span 6 / auto / auto;
+    padding-right: 30px;
+  }
+
+  footer div.page,
+  footer div.category {
+    grid-area: span 1 / span 3 / auto / auto;
+  }
+
+  footer div.contact {
+    grid-area: span 1 / span 5 / auto / auto;
   }
 }
