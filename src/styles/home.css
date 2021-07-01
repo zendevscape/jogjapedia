@@ -174,7 +174,7 @@ main.home .counter-wrapper .deceased::before {
   top: 0;
   left: 0;
   z-index: 0;
-  background: url(assets/img/icons/circle.svg);
+  background: url("/assets/img/icons/circle.svg");
   background-position: right;
   background-repeat: no-repeat;
   width: 100%;
