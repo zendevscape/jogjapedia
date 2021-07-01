@@ -28,7 +28,7 @@ const Home = {
           <p class="notopmargin">Daerah Istimewa Yogyakarta (DIY) merupakan wilayah tertua kedua di Indonesia setelah Jawa Timur. Provinsi ini juga memiliki status istimewa atau otonomi khusus. Status ini adalah sebuah warisan dari zaman sebelum kemerdekaan, yaitu Kasultanan Ngayogyakarta Hadiningrat dan juga Kadipaten Paku Alaman sebagai cikal bakal DIY.</p>
           <p>Wilayah DIY terletak di bagian selatan Pulau Jawa, berbatasan dengan Provinsi Jawa Tengah. DIY memiliki banyak sekali tempat wisata kekinian serta syarat akan budaya. Selain itu, terdapat juga banyak keistimewaan lain seperti kuliner dan kerajinan, hal ini menjadikannya sebagai salah satu destinasi wisata yang wajib dikunjungi. Dengan populasi 3,689 juta orang, DIY selalu ramai dan meriah.</p>
         </section>
-        <section id="about-carousel" class="carousel slide" data-bs-ride="carousel">
+        <section id="about-carousel" class="carousel slide" data-bs-interval="2000" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img data-src="/assets/img/carousel/keraton-yogyakarta.jpg" class="lazyload d-block w-100" alt="Keraton Yogyakarta">
