@@ -1,18 +1,16 @@
-/* eslint-disable max-len */
-
+const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
-const ServiceWorkerWebpackPlugin = require('serviceworker-webpack-plugin');
-const path = require('path');
-const ImageminWebpackPlugin = require('imagemin-webpack-plugin').default;
-const ImageminMozjpeg = require('imagemin-mozjpeg');
+const WorkboxWebpackPlugin = require('workbox-webpack-plugin');
+const ImageMinimizerPlugin = require('image-minimizer-webpack-plugin');
+const {extendDefaultPlugins} = require('svgo');
 
 module.exports = {
   entry: path.resolve(__dirname, 'src/scripts/index.js'),
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'assets/js/bundle.js',
+    filename: 'assets/js/[name].bundle.js',
     publicPath: '/',
+    clean: true,
   },
   module: {
     rules: [
@@ -45,17 +43,31 @@ module.exports = {
         },
       ],
     }),
-    new ServiceWorkerWebpackPlugin({
-      entry: path.resolve(__dirname, 'src/scripts/service-worker.js'),
-      filename: 'service-worker.js',
+    new WorkboxWebpackPlugin.InjectManifest({
+      swSrc: path.resolve(__dirname, 'src/scripts/service-worker.js'),
+      swDest: 'service-worker.js',
     }),
-    new ImageminWebpackPlugin({
-      plugins: [
-        ImageminMozjpeg({
-          quality: 50,
-          progressive: true,
-        }),
-      ],
+    new ImageMinimizerPlugin({
+      minimizerOptions: {
+        plugins: [
+          ['jpegtran', {progressive: true}],
+          ['optipng', {optimizationLevel: 5}],
+          ['svgo', {
+            plugins: extendDefaultPlugins([
+              {
+                name: 'removeViewBox',
+                active: false,
+              },
+              {
+                name: 'addAttributesToSVGElement',
+                params: {
+                  attributes: [{xmlns: 'http://www.w3.org/2000/svg'}],
+                },
+              },
+            ]),
+          }],
+        ],
+      },
     }),
   ],
   optimization: {
@@ -72,6 +84,7 @@ module.exports = {
         defaultVendors: {
           test: /[\\/]node_modules[\\/]/,
           priority: -10,
+          reuseExistingChunk: true,
         },
         default: {
           minChunks: 2,

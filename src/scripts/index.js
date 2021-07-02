@@ -4,7 +4,6 @@ import 'lazysizes/plugins/parent-fit/ls.parent-fit';
 import 'regenerator-runtime';
 import 'bootstrap/js/dist/carousel';
 import App from './views/app';
-import registerServiceWorker from './utils/service-worker-register';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/main.css';
@@ -29,5 +28,10 @@ window.addEventListener('hashchange', () => {
 
 window.addEventListener('load', () => {
   app.renderPage();
-  registerServiceWorker();
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/service-worker.js');
+    console.log('Service worker registered!');
+  } else {
+    console.log('Service worker not supported in this browser!');
+  }
 });
