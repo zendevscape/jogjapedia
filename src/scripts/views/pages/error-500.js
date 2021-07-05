@@ -1,12 +1,13 @@
+import $ from 'jquery';
+
 const Error500 = {
   async render() {
-    const main = document.querySelector('main');
-    main.removeAttribute('class');
-    main.classList.add('error-500');
+    $('main').removeAttr('class');
+    $('main').addClass('error-500');
 
-    document.querySelector('header').classList.add('semi');
-    document.querySelector('a.home').classList.remove('menu-active');
-    document.querySelector('a.explore').classList.remove('menu-active');
+    $('header').addClass('semi');
+    $('a.home').removeClass('menu-active');
+    $('a.explore').removeClass('menu-active');
 
     document.title = 'Kesalahan | JogjaPedia';
     return `

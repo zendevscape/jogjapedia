@@ -1,18 +1,20 @@
+import Carousel from 'bootstrap/js/dist/carousel';
+import $ from 'jquery';
 import Typed from 'typed.js';
 import CovidDataSource from '../../datasource/covid-datasource';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 const Home = {
   async render() {
-    const main = document.querySelector('main');
-    main.removeAttribute('class');
-    main.classList.add('home');
+    $('main').removeAttr('class');
+    $('main').addClass('home');
 
-    const header = document.querySelector('header');
-    header.classList.add('transparent');
-    header.classList.remove('semi');
+    $('header').addClass('transparent');
+    $('header').removeClass('semi');
 
-    document.querySelector('a.explore').classList.remove('menu-active');
-    document.querySelector('a.home').classList.add('menu-active');
+    $('a.explore').removeClass('menu-active');
+    $('a.home').addClass('menu-active');
 
     document.title = 'Beranda | JogjaPedia';
     return `
@@ -29,6 +31,14 @@ const Home = {
           <p>Wilayah DIY terletak di bagian selatan Pulau Jawa, berbatasan dengan Provinsi Jawa Tengah. DIY memiliki banyak sekali tempat wisata kekinian serta syarat akan budaya. Selain itu, terdapat juga banyak keistimewaan lain seperti kuliner dan kerajinan, hal ini menjadikannya sebagai salah satu destinasi wisata yang wajib dikunjungi. Dengan populasi 3,689 juta orang, DIY selalu ramai dan meriah.</p>
         </section>
         <section id="about-carousel" class="carousel slide" data-bs-interval="2000" data-bs-ride="carousel">
+          <button class="carousel-control-prev" type="button" data-bs-target="#about-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#about-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img data-src="/assets/img/carousel/keraton-yogyakarta.jpg" class="lazyload d-block w-100" alt="Keraton Yogyakarta">
@@ -59,14 +69,6 @@ const Home = {
               </div>
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#about-carousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#about-carousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
         </section>
         <section class="history">
           <h2>Sejarah</h2>
@@ -149,18 +151,23 @@ const Home = {
         backDelay: 2000,
       });
 
+      const carousel = new Carousel($('.carousel'));
+      if (document.visibilityState === 'visible') {
+        carousel.cycle();
+      }
+
       const covidData = await CovidDataSource.getData();
       const confirmed = covidData.positive;
       const recovered = covidData.recovered;
       const deceased = covidData.deaths;
       const active = confirmed - recovered - deceased;
 
-      document.querySelector('.confirmed .counter').innerHTML = confirmed.toLocaleString('id-ID');
-      document.querySelector('.active .counter').innerHTML = active.toLocaleString('id-ID');
-      document.querySelector('.recovered .counter').innerHTML = recovered.toLocaleString('id-ID');
-      document.querySelector('.deceased .counter').innerHTML = deceased.toLocaleString('id-ID');
+      $('.confirmed .counter').empty().append(confirmed.toLocaleString('id-ID'));
+      $('.active .counter').empty().append(active.toLocaleString('id-ID'));
+      $('.recovered .counter').empty().append(recovered.toLocaleString('id-ID'));
+      $('.deceased .counter').empty().append(deceased.toLocaleString('id-ID'));
     } catch (error) {
-      console.log(error.message);
+      console.log(error);
     };
   },
 };

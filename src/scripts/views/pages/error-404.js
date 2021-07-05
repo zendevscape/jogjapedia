@@ -1,12 +1,13 @@
+import $ from 'jquery';
+
 const Error404 = {
   async render() {
-    const main = document.querySelector('main');
-    main.removeAttribute('class');
-    main.classList.add('error-404');
+    $('main').removeAttr('class');
+    $('main').addClass('error-404');
 
-    document.querySelector('header').classList.add('semi');
-    document.querySelector('a.home').classList.remove('menu-active');
-    document.querySelector('a.explore').classList.remove('menu-active');
+    $('header').addClass('semi');
+    $('a.home').removeClass('menu-active');
+    $('a.explore').removeClass('menu-active');
 
     document.title = 'Halaman Tidak Ditemukan | JogjaPedia';
     return `

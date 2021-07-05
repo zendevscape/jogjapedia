@@ -1,3 +1,4 @@
+import $ from 'jquery';
 import UrlParser from '../../router/url-parser';
 import Error404 from './error-404';
 import ItemDataSource from '../../datasource/item-datasource';
@@ -10,13 +11,12 @@ const view = new CategorySearchView();
 
 const Category = {
   async render() {
-    const main = document.querySelector('main');
-    main.removeAttribute('class');
-    main.classList.add('category');
+    $('main').removeAttr('class');
+    $('main').addClass('category');
 
-    document.querySelector('header').classList.add('semi');
-    document.querySelector('a.home').classList.remove('menu-active');
-    document.querySelector('a.explore').classList.remove('menu-active');
+    $('header').addClass('semi');
+    $('a.home').removeClass('menu-active');
+    $('a.explore').removeClass('menu-active');
 
     const url = UrlParser.parseActiveUrlWithoutCombiner();
     this._category = await CategoryDataSource.getCategory(url.id);

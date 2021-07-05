@@ -34,21 +34,19 @@ class App {
   }
 
   async renderPage() {
-    this._window.scrollTo(0, 0);
-    this._content.innerHTML = `
-      <loading-splash>
-      </loading-splash>`;
+    this._window.scrollTop(0);
+    this._content.empty().append('<loading-splash></loading-splash>');
 
     try {
       const url = UrlParser.parseActiveUrlWithCombiner();
       const page = routes(url);
       const html = await page.render();
-      this._content.innerHTML = html;
+      this._content.empty().append(html);
 
       await page.afterRender();
     } catch (error) {
       console.log(error.message);
-      this._content.innerHTML = await Error500.render();
+      this._content.empty().append(await Error500.render());
     }
   }
 }

@@ -1,3 +1,4 @@
+import $ from 'jquery';
 import {createItem} from '../../templates/template-creator';
 
 class CategorySearchView {
@@ -27,11 +28,9 @@ class CategorySearchView {
   }
 
   runWhenUserIsSearching(callback) {
-    document
-        .querySelector('.search-query')
-        .addEventListener('change', (event) => {
-          callback(event.target.value);
-        });
+    $('.search-query').on('change', (event) => {
+      callback(event.target.value);
+    });
   }
 
   showItems(catId, items) {
@@ -45,10 +44,8 @@ class CategorySearchView {
       html = this._getEmptyItemTemplate();
     }
 
-    document.querySelector('.item__list').innerHTML = html;
-    document
-        .querySelector('.item__list')
-        .dispatchEvent(new Event('items:updated'));
+    $('.item__list').empty().append(html);
+    $('.item__list').trigger('items:updated');
   }
 
   _getEmptyItemTemplate() {
