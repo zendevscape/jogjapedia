@@ -30,7 +30,7 @@
     "id": "malioboro",
     "category": "Destinasi Wisata",
     "name": "Malioboro",
-    "description": "<p>Kawasan ini merupakan jantung kota dan simbol kota Yogyakarta. Beberapa orang merasa belum lengkap ketika datang ke Jogja, namun belum mengunjungi Malioboro. Namun ada sejarah panjang Malioboro di balik keistimewaannya. Keberadaan Keraton Yogyakarta abad ke-18, Jalan Malioboro Jogja, masih berupa jalan kerikil yang belum diberi nama. Jalan tersebut menghubungkan Kraton Yogyakarta dengan Tugu Golog-gilig dan membentuk garis lurus dengan Gunung Merapi. Sebagian besar kanan dan kiri adalah perkampungan. malioboro banyak dikenal karena Beragam wisata berupa pantai yang mempesona serta sejarah dan budaya. Tak heran jika banyak orang yang merindukan keindahan Jogja. Jika Anda menikmati keindahan Jogja saat senja tiba di malam hari, pesona kota di Gudeg ini baru saja dimulai. Jadi jangan lari pulang jika belum merasakan indahnya Jogja di malam hari.</p>",
+    "description": "<p>Kawasan ini merupakan jantung dan simbol kota Yogyakarta. Beberapa orang merasa belum lengkap ketika datang ke Jogja, namun belum mengunjungi Malioboro. Namun ada sejarah panjang Malioboro di balik keistimewaannya. Pada awal keberadaan Keraton Yogyakarta di abad ke-18, Jalan Malioboro masih berupa jalan kerikil yang belum diberi nama. Jalan tersebut menghubungkan Keraton Yogyakarta dengan Tugu Golong Gilig dan membentuk garis lurus dengan Gunung Merapi. Sebagian besar wilayah di kanan dan kiri jalan adalah perkampungan.</p>",
     "picture": {
       "link": "/assets/img/wisata/malioboro.jpg",
       "license": "© Gunawan Kartapranata / CC BY-SA 3.0"
@@ -57,7 +57,7 @@
     "id": "taman-nasional-gunung-merapi",
     "category": "Destinasi Wisata",
     "name": "Taman Nasional Gunung Merapi",
-    "description": "<p>Taman Nasional Gunung Merapi terletak di Jawa Tengah. Di sisi pemerintah, taman nasional ini merupakan bagian dari dua provinsi, yaitu Jawa Tengah dan Yogyakarta. 134/Menhut-II/2004 tanggal 4 Mei 2004. Tujuan pengelolaannya adalah untuk melindungi sumber air, sungai dan memelihara sistem penting pemerintahan/kota Sleman, Yogyakarta, Klaten, Boyolali dan Magelang. Taman Nasional Gunung Merapi dikelola oleh Pusat KSDA Yogyakarta.</p>",
+    "description": "<p>Taman Nasional Gunung Merapi, dari sisi pemerintahan, merupakan bagian dari dua provinsi, yaitu Jawa Tengah dan Yogyakarta. Tujuan pengelolaannya adalah untuk melindungi sumber air, sungai, dan memelihara sistem penting pemerintahan kota Sleman, Yogyakarta, Klaten, Boyolali dan Magelang. Taman Nasional Gunung Merapi dikelola oleh Pusat KSDA Yogyakarta.</p>",
     "picture": {
       "link": "/assets/img/wisata/taman-nasional-gunung-merapi.jpg",
       "license": "© Crisco 1492 / CC BY-SA 3.0"
@@ -111,7 +111,7 @@
     "id": "candi-prambanan",
     "category": "Destinasi Wisata",
     "name": "Candi Prambanan",
-    "description": "<p>Candi Prambanan sama terkenalnya dengan Angkor Wat dan merupakan salah satu candi Hindu terbesar di Asia Tenggara. Tiga candi utama disebut Trimurti dan mengabadikan tiga dewa utama Trimurti: Siwa Sang Penghancur, Wisnu Sang Penjaga, dan Brahma Sang Pencipta. Siwa lebih diutamakan dibanding dua dewa Trimurti lain. Candi Siwa merupakan bangunan utama, terbesar dan tertinggi, setinggi 47 meter.</p>",
+    "description": "<p>Candi Prambanan sama terkenalnya dengan Angkor Wat dan merupakan salah satu candi Hindu terbesar di Asia Tenggara. Tiga candi utama disebut Trimurti dan mengabadikan tiga dewa utama Trimurti; Siwa Sang Penghancur, Wisnu Sang Penjaga, dan Brahma Sang Pencipta. Siwa lebih diutamakan dibanding dua dewa Trimurti lain. Candi Siwa merupakan bangunan utama, terbesar dan tertinggi, setinggi 47 meter.</p>",
     "picture": {
       "link": "/assets/img/wisata/candi-prambanan.jpg",
       "license": "© Ridwanpurwantobatam / CC BY-SA 4.0"
@@ -138,7 +138,7 @@
     "id": "monumen-jogja-kembali",
     "category": "Destinasi Wisata",
     "name": "Monumen Jogja Kembali",
-    "description": "<p>Monumen Yogya Kembali didirikan tanggal 29 Juni 1985, didahului dengan upacara adat penanaman kepala kerbau dan peletakan batu pertama oleh Sri Sultan Hamengkubuwono IX dan Sri Paduka Paku Alam VIII. Ide membangun tugu ini dicetuskan pada tahun 1983 oleh Kolonel Soegiarto selaku Walikota Yogyakarta. Nama Yogya terpilih kembali dengan maksud menjadi <em>tetenger</em> (peringatan) peristiwa bersejarah mundurnya tentara pendudukan Belanda dari ibukota Indonesia Yogyakarta pada waktu itu, 29 Juni 1949. Ini merupakan awal bebasnya bangsa Indonesia dari kekangan Belanda.</p>",
+    "description": "<p>Monumen Jogja Kembali didirikan tanggal 29 Juni 1985, didahului dengan upacara adat penanaman kepala kerbau dan peletakan batu pertama oleh Sri Sultan Hamengkubuwono IX dan Sri Paduka Paku Alam VIII. Ide pembangunan monumen ini dicetuskan pada tahun 1983 oleh Kolonel Soegiarto selaku Walikota Yogyakarta. Nama Jogja Kembali terpilih dengan maksud sebagai <em>tetenger</em> (peringatan) peristiwa bersejarah mundurnya tentara pendudukan Belanda dari ibu kota Indonesia Yogyakarta pada waktu itu, 29 Juni 1949. Ini merupakan awal bebasnya bangsa Indonesia dari kekangan Belanda.</p>",
     "picture": {
       "link": "/assets/img/wisata/monumen-jogja-kembali.jpg",
       "license": "© Crisco 1492 / CC BY-SA 3.0"
@@ -165,7 +165,7 @@
     "id": "pantai-parangtritis",
     "category": "Destinasi Wisata",
     "name": "Pantai Parangtritis",
-    "description": "<p>Pantai Parangtritis merupakan pantai di Yogyakarta yang paling diminati oleh wisatawan. Pantai ini tidak pernah sepi dikunjungi wisatawan lokal maupun mancanegara. Sebelum ada pantai lain, pantai ini merupakan pionir dan bahkan menjadi simbol pantai di Bantul, Yogyakarta.</p><p>Pantai ini dikenal oleh semua orang, meski hanya mendengar nama pantai karena popularitasnya saja sudah melejit. Pantai pasir hitam ini hanya berjarak 17 km dari pusat kota Yogyakarta. Wisatawan berduyun-duyun ke pantai ini untuk menyaksikan indahnya matahari terbenam. Karena pemandangannya yang luar biasa, tempat ini sering digunakan sebagai tempat pemotretan pernikahan, ujung timur Pantai Parangtritis menjadi lokasi yang populer untuk foto pernikahan, karena terdapat koloni karang yang sangat indah di sini.</p>",
+    "description": "<p>Pantai Parangtritis merupakan pantai di Yogyakarta yang paling diminati oleh wisatawan. Pantai ini tidak pernah sepi dikunjungi wisatawan lokal maupun mancanegara. Sebelum ada pantai lain, pantai ini merupakan pionir dan bahkan menjadi simbol pantai di Bantul, Yogyakarta.</p><p>Pantai ini dikenal oleh semua orang, meski hanya mendengar nama pantai karena popularitasnya saja sudah melejit. Pantai pasir hitam ini hanya berjarak 17 km dari pusat kota Yogyakarta. Wisatawan berduyun-duyun ke pantai ini untuk menyaksikan indahnya matahari terbenam. Karena pemandangannya yang luar biasa, tempat ini sering digunakan sebagai tempat pemotretan pernikahan. Ujung timur Pantai Parangtritis menjadi lokasi yang populer untuk foto pernikahan, karena terdapat koloni karang yang sangat indah.</p>",
     "picture": {
       "link": "/assets/img/wisata/pantai-parangtritis.jpg",
       "license": "© Midori / CC BY-SA 3.0"
@@ -192,7 +192,7 @@
     "id": "bukit-paralayang-watugupit",
     "category": "Destinasi Wisata",
     "name": "Bukit Paralayang Watugupit",
-    "description": "<p>Pesisir pantai yang panjang, langit yang biru, deburan ombak yang mengejar hingga mentari sore adalah kombinasi sempurna untuk menghilangkan penat. Salah satu tempat yang menawarkan panorama keindahan sunset seperti itu adalah di Daerah Istimewa Jogjakarta. , yaitu Bukit Paralayang Watugupit. destinasi wisata ini terletak di Dusun Watugupit, Desa Giricahyo, Kecamatan Purwosari, Kabupaten Gunungkidul. Jarak dari kota Yogyakarta sekitar 32 kilometer dengan waktu tempuh sekitar satu jam. tebing Bukit Paralayang Watugupit terletak di kawasan pegunungan di sebelah timur Pantai Parangtritis.</p>",
+    "description": "<p>Pesisir pantai yang panjang, langit yang biru, deburan ombak yang mengejar hingga mentari sore adalah kombinasi sempurna untuk menghilangkan penat. Salah satu tempat yang menawarkan panorama keindahan sunset seperti itu adalah Bukit Paralayang Watugupit. Destinasi wisata ini berjarak dari sekitar 32 kilometer Kota Yogyakarta dengan waktu tempuh sekitar satu jam. Tebing Bukit Paralayang Watugupit terletak di kawasan pegunungan di sebelah timur Pantai Parangtritis.</p>",
     "picture": {
       "link": "/assets/img/wisata/bukit-paralayang-watugupit.jpg",
       "license": "© Maulidana / CC BY-SA 4.0"
@@ -219,7 +219,7 @@
     "id": "air-terjun-sri-gethuk",
     "category": "Destinasi Wisata",
     "name": "Air Terjun Sri Gethuk",
-    "description": "<p>Air terjun Sri Gethuk unik dan berbeda dari air terjun lain di Yogyakarta. Air terjun Sri Gethuk terletak di atas batu karang dan di sampingnya terdapat sungai. Oleh karena itu, jika ingin mengunjungi air terjun Sri Gethuk, Anda harus berjalan kaki sekitar 700 meter menyusuri sungai. Jangan khawatir, Anda akan mendapatkan perahu yang terbuat dari drum yang dibuat oleh perahu ini oleh manajer kreatif. Anda akan dibawa untuk menikmati pemandangan unik di sepanjang sungai yang eksotis.</p>",
+    "description": "<p>Air terjun Sri Gethuk unik dan berbeda dari air terjun lain di Yogyakarta. Air terjun ini terletak di atas batu karang dan di sampingnya terdapat sungai. Oleh karena itu, jika ingin mengunjungi air terjun Sri Gethuk, Anda harus berjalan kaki sekitar 700 meter menyusuri sungai. Jangan khawatir, Anda akan mendapatkan perahu yang terbuat dari drum yang dibuat oleh pengelola destinasi wisata. Anda akan dibawa untuk menikmati pemandangan unik di sepanjang sungai yang eksotis.</p>",
     "picture": {
       "link": "/assets/img/wisata/air-terjun-sri-gethuk.jpg",
       "license": "© Thomas Fuhrmann / CC BY-SA 4.0"
@@ -246,7 +246,7 @@
     "id": "tamansari",
     "category": "Destinasi Wisata",
     "name": "Tamansari",
-    "description": "<p>Tamansari adalah salah satu bangunan milik kesultanan Yogyakarta yg difungsikan menjadi destinasi wisata. Tetapi selain menjadi destinasi wisata, Tamansari masih dipakai menjadi loka ritual oleh famili raja.</p><p>Dengan bentuk bangunan arsitektur ala Portugis-Jawa, bangunan pada taman ini sebagai daya tarik utama. Meskipun kini  bangunan tidak lagi utuh seperti ketika masih difungsikan menjadi taman kesultanan, tetapi tetap saja aura estetika terpancar sangat kuat dari bangunan bangunan pada taman ini.</p>",
+    "description": "<p>Tamansari adalah salah satu bangunan milik kesultanan Yogyakarta yang difungsikan sebagai destinasi wisata. Tetapi selain menjadi destinasi wisata, Tamansari masih dipakai menjadi lokasi ritual oleh famili raja.</p><p>Dengan arsitektur bangunan ala Portugis-Jawa sebagai daya tarik utama. Meskipun kini bangunan tidak lagi utuh seperti ketika masih difungsikan menjadi taman kesultanan, tetapi tetap saja aura estetika terpancar sangat kuat dari bangunan-bangunan pada taman ini.</p>",
     "picture": {
       "link": "/assets/img/wisata/tamansari.jpg",
       "license": "© CEphoto, Uwe Aranas / CC BY-SA 3.0"
