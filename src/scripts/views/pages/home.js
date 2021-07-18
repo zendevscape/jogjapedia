@@ -122,8 +122,8 @@ const Home = {
               </div>
             </div>  
             <div class="info">
-              <p>Pembaruan terakhir: <b>${new Date(Date.now()).toLocaleDateString('id-ID', {day: 'numeric', month: 'long', year: 'numeric'})}</b></p>
-              <p>Sumber: <b><a href="https://js-indo.herokuapp.com/docs/corona" target="_blank" rel="noopener">JS Indo</a></b></p>
+              <p class="last-date">Pembaruan terakhir: <b>NaN</b></p>
+              <p>Sumber: <b><a href="https://covid19.go.id/" target="_blank" rel="noopener">Satuan Tugas Penanganan COVID-19</a></b></p>
             </div>
           </div>
         </section>
@@ -157,11 +157,13 @@ const Home = {
       }
 
       const covidData = await CovidDataSource.getData();
-      const confirmed = covidData.positive;
+      const lastDate = covidData.lastDate;
+      const confirmed = covidData.confirmed;
       const recovered = covidData.recovered;
-      const deceased = covidData.deaths;
-      const active = confirmed - recovered - deceased;
+      const deceased = covidData.deceased;
+      const active = covidData.active;
 
+      $('.last-date').empty().append(`Pembaruan terakhir: <b>${new Date(lastDate).toLocaleDateString('id-ID', {day: 'numeric', month: 'long', year: 'numeric'})}</b>`);
       $('.confirmed .counter').empty().append(confirmed.toLocaleString('id-ID'));
       $('.active .counter').empty().append(active.toLocaleString('id-ID'));
       $('.recovered .counter').empty().append(recovered.toLocaleString('id-ID'));
