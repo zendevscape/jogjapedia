@@ -52,13 +52,12 @@ const createDetailsWithMarket = (item) => {
   return `
     <div class="content-wrapper">
       <section class="image">
-        <div>
-          <img data-src="${item.picture.link ||
-            'https://picsum.photos/id/666/700/400?grayscale'}"
+        <a href="${item.picture.link}" class="glightbox" data-glightbox="title: ${item.name}; description: ${item.picture.license};">
+          <img data-src="${item.picture.link}"
             class="lazyload"
             alt="${item.name}">
           <p>${item.picture.license}</p>
-        </div>
+        </a>
       </section>
       <section class="entity">
         <div class="section-wrapper" tabindex="0">
@@ -106,13 +105,12 @@ const createDetailsWithReview = (item) => {
   return `
     <div class="content-wrapper">
       <section class="image">
-        <div>
-          <img data-src="${item.picture.link ||
-            'https://picsum.photos/id/666/700/400?grayscale'}"
+        <a href="${item.picture.link}" class="glightbox" data-glightbox="title: ${item.name}; description: ${item.picture.license};">
+          <img data-src="${item.picture.link}"
             class="lazyload"
             alt="${item.name}">
           <p>${item.picture.license}</p>
-        </div>
+        </a>
       </section>
       <section class="entity">
         <div class="section-wrapper" tabindex="0">

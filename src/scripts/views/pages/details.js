@@ -1,7 +1,10 @@
 import $ from 'jquery';
+import GLightbox from 'glightbox';
 import UrlParser from '../../router/url-parser';
 import ItemDataSource from '../../datasource/item-datasource';
 import {createDetailsWithMarket, createDetailsWithReview} from '../templates/template-creator';
+
+import 'glightbox/dist/css/glightbox.min.css';
 
 const Details = {
   async render() {
@@ -31,7 +34,9 @@ const Details = {
     }
   },
 
-  async afterRender() {},
+  async afterRender() {
+    new GLightbox();
+  },
 };
 
 export default Details;

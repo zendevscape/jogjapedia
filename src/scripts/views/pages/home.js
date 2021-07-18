@@ -1,9 +1,11 @@
 import Carousel from 'bootstrap/js/dist/carousel';
 import $ from 'jquery';
 import Typed from 'typed.js';
+import GLightbox from 'glightbox';
 import CovidDataSource from '../../datasource/covid-datasource';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'glightbox/dist/css/glightbox.min.css';
 
 const Home = {
   async render() {
@@ -40,34 +42,34 @@ const Home = {
             <span class="visually-hidden">Next</span>
           </button>
           <div class="carousel-inner">
-            <div class="carousel-item active">
+            <a href="/assets/img/carousel/keraton-yogyakarta.jpg" class="carousel-item glightbox active" data-gallery="highlight" data-glightbox="title: Keraton Yogyakarta; description: © Gunawan Kartapranata / CC BY-SA 3.0;">
               <img data-src="/assets/img/carousel/keraton-yogyakarta.jpg" class="lazyload d-block w-100" alt="Keraton Yogyakarta">
               <p class="carousel__copyright">© Gunawan Kartapranata / CC BY-SA 3.0</p>
               <div class="carousel-caption d-block">
                 <p>Keraton Yogyakarta</p>
               </div>
-            </div>
-            <div class="carousel-item">
-              <img data-src="/assets/img/carousel/gunung-merapi.jpg" class="lazyload d-block w-100" alt="Taman Nasional Gunung Merapi">
-              <p class="carousel__copyright">© Vendi Rizki K / CC BY-SA 4.0</p>
+            </a>
+            <a href="/assets/img/carousel/universitas-gadjah-mada.jpg" class="carousel-item glightbox" data-gallery="highlight" data-glightbox="title: Universitas Gadjah Mada; description: © Risanprasetyo, Febri Ady Prasetyo / CC BY-SA 4.0;">
+              <img data-src="/assets/img/carousel/universitas-gadjah-mada.jpg" class="lazyload d-block w-100" alt="Universitas Gadjah Mada">
+              <p class="carousel__copyright">© Risanprasetyo, Febri Ady Prasetyo / CC BY-SA 4.0</p>
               <div class="carousel-caption d-block">
-                <p>Taman Nasional Gunung Merapi</p>
+                <p>Universitas Gadjah Mada</p>
               </div>
-            </div>
-            <div class="carousel-item">
-              <img data-src="/assets/img/carousel/pantai-wediombo.jpg" class="lazyload d-block w-100" alt="Pantai Wediombo">
-              <p class="carousel__copyright">© Azisrif / CC BY-SA 4.0</p>
+            </a>
+            <a href="/assets/img/carousel/gudeg.jpg" class="carousel-item glightbox" data-gallery="highlight" data-glightbox="title: Gudeg; description: © Christian Razukas / CC BY-SA 2.0;">
+              <img data-src="/assets/img/carousel/gudeg.jpg" class="lazyload d-block w-100" alt="Gudeg">
+              <p class="carousel__copyright">© Christian Razukas / CC BY-SA 2.0</p>
               <div class="carousel-caption d-block">
-                <p>Pantai Wediombo</p>
+                <p>Gudeg</p>
               </div>
-            </div>
-            <div class="carousel-item">
-              <img data-src="/assets/img/carousel/candi-prambanan.jpg" class="lazyload d-block w-100" alt="Candi Prambanan">
-              <p class="carousel__copyright">© Jimmy McIntyre / CC BY-SA 2.0</p>
+            </a>
+            <a href="/assets/img/carousel/gerabah-kasongan.jpg" class="carousel-item glightbox" data-gallery="highlight" data-glightbox="title: Gerabah Kasongan; description: © Asri Nurhayati / CC BY-SA 4.0;">
+              <img data-src="/assets/img/carousel/gerabah-kasongan.jpg" class="lazyload d-block w-100" alt="Gerabah Kasongan">
+              <p class="carousel__copyright">© Asri Nurhayati / CC BY-SA 4.0</p>
               <div class="carousel-caption d-block">
-                <p>Candi Prambanan</p>
+                <p>Gerabah Kasongan</p>
               </div>
-            </div>
+            </a>
           </div>
         </section>
         <section class="history">
@@ -149,6 +151,11 @@ const Home = {
         typeSpeed: 60,
         backSpeed: 30,
         backDelay: 2000,
+      });
+
+      new GLightbox({
+        loop: true,
+        touchNavigation: true,
       });
 
       const carousel = new Carousel($('.carousel'));

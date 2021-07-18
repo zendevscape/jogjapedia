@@ -7,7 +7,6 @@ import Error404 from '../views/pages/error-404';
 const routes = (url) => {
   switch (url) {
     case '/':
-      return Home;
     case '/home':
       return Home;
     case '/explore':
