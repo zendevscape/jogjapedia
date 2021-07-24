@@ -14,7 +14,7 @@ const Category = {
     $('main').removeAttr('class');
     $('main').addClass('category');
 
-    $('header').addClass('semi');
+    $('header').addClass('cancel-transparent');
     $('a.home').removeClass('menu-active');
     $('a.explore').removeClass('menu-active');
 

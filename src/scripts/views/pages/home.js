@@ -13,7 +13,7 @@ const Home = {
     $('main').addClass('home');
 
     $('header').addClass('transparent');
-    $('header').removeClass('semi');
+    $('header').removeClass('cancel-transparent');
 
     $('a.explore').removeClass('menu-active');
     $('a.home').addClass('menu-active');

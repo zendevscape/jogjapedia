@@ -50,11 +50,6 @@ body {
   margin-top: 0 !important;
 }
 
-.menu-active {
-  color: #ffffff !important;
-  background-color: #e40000;
-}
-
 header {
   position: fixed;
   width: 100%;
@@ -72,7 +67,7 @@ header.transparent {
   box-shadow: none;
 }
 
-header.semi {
+header.cancel-transparent {
   background-color: #ffffff;
   box-shadow: 0 5px 20px -10px rgba(0, 0, 0, 0.25);
 }
@@ -86,28 +81,22 @@ header h1 img {
   width: 200px;
 }
 
-header img.logo-black {
+header img.logo-black,
+header.transparent img.logo-white,
+nav .floatmenu .icon__close,
+nav.open .floatmenu .icon__open {
   display: none;
 }
 
-header img.logo-white {
+header img.logo-white,
+header.transparent img.logo-black,
+header.cancel-transparent img.logo-white,
+nav.open .floatmenu .icon__close {
   display: block;
 }
 
-header.transparent img.logo-white {
+header.cancel-transparent img.logo-black {
   display: none;
-}
-
-header.transparent img.logo-black {
-  display: block;
-}
-
-header.semi img.logo-black {
-  display: none;
-}
-
-header.semi img.logo-white {
-  display: block;
 }
 
 nav {
@@ -151,10 +140,6 @@ nav .floatmenu svg {
   width: 30px;
 }
 
-nav .floatmenu .icon__close {
-  display: none;
-}
-
 nav .nav__list {
   display: none;
   margin-bottom: 3.5rem;
@@ -194,6 +179,7 @@ nav .nav__list a:focus {
   box-shadow: 0 0 0 2px #e400004d;
 }
 
+.menu-active,
 nav .nav__list a:hover {
   color: #ffffff !important;
   background-color: #e40000;
@@ -202,14 +188,6 @@ nav .nav__list a:hover {
 nav .nav__list .material-icons {
   vertical-align: text-bottom;
   margin-right: 10px;
-}
-
-nav.open .floatmenu .icon__open {
-  display: none;
-}
-
-nav.open .floatmenu .icon__close {
-  display: block;
 }
 
 main {
@@ -342,12 +320,16 @@ footer div.contact td .material-icons-outlined {
     padding: 0.5rem 1.5rem;
   }
 
-  header.transparent .nav__list a {
-    color: #ffffff;
+  header.transparent .nav__list a,
+  header.transparent .nav__list a:hover {
+    color: #ffffff !important;
   }
 
-  header.semi .nav__list a {
-    color: #000000;
+  header .nav__list a,
+  header .nav__list a:hover,
+  header.cancel-transparent .nav__list a,
+  header.cancel-transparent .nav__list a:hover {
+    color: #000000 !important;
   }
 
   .header-wrapper {
@@ -383,7 +365,49 @@ footer div.contact td .material-icons-outlined {
   }
 
   nav .nav__list a {
+    position: relative;
     padding: 0.8rem 1.4rem 0.8rem 1rem;
+  }
+
+  .menu-active,
+  nav .nav__list a:hover {
+    background-color: transparent;
+  }
+
+  nav .nav__list a:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+  nav .nav__list a:after {
+    -webkit-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
+    position: absolute;
+    display: block;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 4px;
+    width: 30px;
+    border-radius: 5px;
+    content: "";
+    background: #e40000;
+  }
+
+  .menu-active:after,
+  nav .nav__list a:focus:after,
+  nav .nav__list a:hover:after {
+    backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 0.3s ease-out,
+      border-color 0.3s ease-out;
+    -ms-transition: -webkit-transform 0.3s ease-out, border-color 0.3s ease-out;
+    transition: transform 0.3s ease-out, border-color 0.3s ease-out;
+    -webkit-transform: scaleX(1) !important;
+    -ms-transform: scaleX(1) !important;
+    transform: scaleX(1) !important;
   }
 
   footer {

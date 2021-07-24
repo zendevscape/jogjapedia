@@ -5,7 +5,7 @@ const Error404 = {
     $('main').removeAttr('class');
     $('main').addClass('error-404');
 
-    $('header').addClass('semi');
+    $('header').addClass('cancel-transparent');
     $('a.home').removeClass('menu-active');
     $('a.explore').removeClass('menu-active');
 

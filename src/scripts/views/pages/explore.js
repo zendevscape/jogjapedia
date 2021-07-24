@@ -8,7 +8,7 @@ const Explore = {
     $('main').addClass('explore');
 
     $('header').addClass('transparent');
-    $('header').removeClass('semi');
+    $('header').removeClass('cancel-transparent');
 
     $('a.home').removeClass('menu-active');
     $('a.explore').addClass('menu-active');

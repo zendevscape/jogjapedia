@@ -5,7 +5,7 @@ const Error500 = {
     $('main').removeAttr('class');
     $('main').addClass('error-500');
 
-    $('header').addClass('semi');
+    $('header').addClass('cancel-transparent');
     $('a.home').removeClass('menu-active');
     $('a.explore').removeClass('menu-active');
 
