@@ -31,7 +31,7 @@ registerRoute(
 );
 
 registerRoute(
-    /^https:\/\/js-indo\.herokuapp\.com\/corona./,
+    /\S*https:\/\/data\.covid19\.go\.id\/\S+/,
     new StaleWhileRevalidate({
       cacheName: 'covid-data',
       matchOptions: {
@@ -43,7 +43,7 @@ registerRoute(
         }),
         new ExpirationPlugin({
           maxEntries: 500,
-          maxAgeSeconds: 63072e3,
+          maxAgeSeconds: 60 * 60 * 24 * 7,
           purgeOnQuotaError: true,
         }),
       ],
