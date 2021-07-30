@@ -74,10 +74,12 @@ header.cancel-transparent {
 
 header h1 {
   padding: 0.2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 header h1 img {
-  margin: 0 auto;
   width: 200px;
 }
 
@@ -336,10 +338,6 @@ footer div.contact td .material-icons-outlined {
 }
 
 @media screen and (min-width: 768px) {
-  header h1 {
-    padding: 0.2rem 0;
-  }
-
   footer div.page,
   footer div.category {
     grid-area: span 1 / span 2 / auto / auto;
