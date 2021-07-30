@@ -6,6 +6,7 @@ class MenuInitiator {
     floatMenu,
     drawer,
     content,
+    footer,
   }) {
     this._window = window;
     this._header = header;
@@ -13,6 +14,7 @@ class MenuInitiator {
     this._floatMenu = floatMenu;
     this._drawer = drawer;
     this._content = content;
+    this._footer = footer;
 
     this._init();
   }
@@ -36,7 +38,15 @@ class MenuInitiator {
       this._toggleDrawer(event, this._drawer);
     });
 
+    this._header.on('click', (event) => {
+      this._closeDrawer(event, this._drawer);
+    });
+
     this._content.on('click', (event) => {
+      this._closeDrawer(event, this._drawer);
+    });
+
+    this._footer.on('click', (event) => {
       this._closeDrawer(event, this._drawer);
     });
 

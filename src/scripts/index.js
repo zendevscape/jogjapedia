@@ -19,6 +19,7 @@ const app = new App({
   floatMenu: $('.float-menu'),
   drawer: $('nav'),
   content: $('main'),
+  footer: $('footer'),
 });
 
 $(window).on('hashchange', () => {

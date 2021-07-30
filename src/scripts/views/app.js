@@ -12,6 +12,7 @@ class App {
     scrollTopMenu,
     drawer,
     content,
+    footer,
   }) {
     this._window = window;
     this._header = header;
@@ -19,6 +20,7 @@ class App {
     this._floatMenu = floatMenu;
     this._drawer = drawer;
     this._content = content;
+    this._footer = footer;
 
     this._initialAppShell();
   }
@@ -33,6 +35,7 @@ class App {
       floatMenu: this._floatMenu,
       drawer: this._drawer,
       content: this._content,
+      footer: this._footer,
     });
   }
 
