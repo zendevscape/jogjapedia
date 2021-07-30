@@ -15,7 +15,8 @@ import '../styles/error-500.css';
 const app = new App({
   window: $(window),
   header: $('header'),
-  menu: $('.floatmenu'),
+  scrollTopMenu: $('.scroll-top-menu'),
+  floatMenu: $('.float-menu'),
   drawer: $('nav'),
   content: $('main'),
 });

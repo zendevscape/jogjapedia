@@ -2,13 +2,15 @@ class MenuInitiator {
   constructor({
     window,
     header,
-    menu,
+    scrollTopMenu,
+    floatMenu,
     drawer,
     content,
   }) {
     this._window = window;
     this._header = header;
-    this._menu = menu;
+    this._scrollTopMenu = scrollTopMenu;
+    this._floatMenu = floatMenu;
     this._drawer = drawer;
     this._content = content;
 
@@ -16,7 +18,21 @@ class MenuInitiator {
   }
 
   _init() {
-    this._menu.on('click', (event) => {
+    this._window.on('scroll', (event) => {
+      if (this._window.scrollTop() >= 50) {
+        this._setHeaderColorful(event, this._header);
+        this._showScrollTopMenu(event, this._scrollTopMenu);
+      } else {
+        this._setHeaderTransparent(event, this._header);
+        this._hideScrollTopMenu(event, this._scrollTopMenu);
+      }
+    });
+
+    this._scrollTopMenu.on('click', (event) => {
+      this._scrollToTop(event, this._window);
+    });
+
+    this._floatMenu.on('click', (event) => {
       this._toggleDrawer(event, this._drawer);
     });
 
@@ -25,28 +41,10 @@ class MenuInitiator {
     });
 
     this._window.on('resize', (event) => {
-      if (this._menu.css('display') === 'none') {
+      if (this._floatMenu.css('display') === 'none') {
         this._closeDrawer(event, this._drawer);
       }
     });
-
-    this._window.on('scroll', (event) => {
-      if (this._window.scrollTop() >= 50) {
-        this._setHeaderColorful(event, this._header);
-      } else {
-        this._setHeaderTransparent(event, this._header);
-      }
-    });
-  }
-
-  _toggleDrawer(event, drawer) {
-    event.stopPropagation();
-    drawer.toggleClass('open');
-  }
-
-  _closeDrawer(event, drawer) {
-    event.stopPropagation();
-    drawer.removeClass('open');
   }
 
   _setHeaderTransparent(event, header) {
@@ -57,6 +55,31 @@ class MenuInitiator {
   _setHeaderColorful(event, header) {
     event.stopPropagation();
     header.removeClass('transparent');
+  }
+
+  _scrollToTop(event, window) {
+    event.stopPropagation();
+    window.scrollTop(0);
+  }
+
+  _showScrollTopMenu(event, scrollTopMenu) {
+    event.stopPropagation();
+    scrollTopMenu.addClass('show');
+  }
+
+  _hideScrollTopMenu(event, scrollTopMenu) {
+    event.stopPropagation();
+    scrollTopMenu.removeClass('show');
+  }
+
+  _toggleDrawer(event, drawer) {
+    event.stopPropagation();
+    drawer.toggleClass('open');
+  }
+
+  _closeDrawer(event, drawer) {
+    event.stopPropagation();
+    drawer.removeClass('open');
   }
 };
 

@@ -8,13 +8,15 @@ class App {
   constructor({
     window,
     header,
-    menu,
+    floatMenu,
+    scrollTopMenu,
     drawer,
     content,
   }) {
     this._window = window;
     this._header = header;
-    this._menu = menu;
+    this._scrollTopMenu = scrollTopMenu;
+    this._floatMenu = floatMenu;
     this._drawer = drawer;
     this._content = content;
 
@@ -27,7 +29,8 @@ class App {
     new MenuInitiator({
       window: this._window,
       header: this._header,
-      menu: this._menu,
+      scrollTopMenu: this._scrollTopMenu,
+      floatMenu: this._floatMenu,
       drawer: this._drawer,
       content: this._content,
     });

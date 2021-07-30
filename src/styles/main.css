@@ -57,9 +57,9 @@ header {
   z-index: 100;
   background-color: #ffffff;
   box-shadow: 0 5px 20px -10px rgba(0, 0, 0, 0.25);
-  -webkit-transition: background-color 200ms ease;
-  -ms-transition: background-color 200ms ease;
-  transition: background-color 200ms ease;
+  -webkit-transition: background-color 0.2s ease;
+  -ms-transition: background-color 0.2s ease;
+  transition: background-color 0.2s ease;
 }
 
 header.transparent {
@@ -83,15 +83,15 @@ header h1 img {
 
 header img.logo-black,
 header.transparent img.logo-white,
-nav .floatmenu .icon__close,
-nav.open .floatmenu .icon__open {
+nav .float-menu .icon__close,
+nav.open .float-menu .icon__open {
   display: none;
 }
 
 header img.logo-white,
 header.transparent img.logo-black,
 header.cancel-transparent img.logo-white,
-nav.open .floatmenu .icon__close {
+nav.open .float-menu .icon__close {
   display: block;
 }
 
@@ -115,7 +115,7 @@ nav.open {
   transform: scale(1);
 }
 
-nav .floatmenu {
+nav .float-menu {
   position: absolute;
   right: 0.5rem;
   bottom: 0.5rem;
@@ -130,12 +130,12 @@ nav .floatmenu {
   border-radius: 50%;
 }
 
-nav .floatmenu:focus {
+nav .float-menu:focus {
   outline: none;
   box-shadow: 0 0 0 4px #e400004d;
 }
 
-nav .floatmenu svg {
+nav .float-menu svg {
   height: 30px;
   width: 30px;
 }
@@ -188,6 +188,41 @@ nav .nav__list a:hover {
 nav .nav__list .material-icons {
   vertical-align: text-bottom;
   margin-right: 10px;
+}
+
+nav .scroll-top-menu {
+  position: absolute;
+  right: 0.5rem;
+  bottom: calc(1.5rem + 50px);
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e40000;
+  color: #ffffff;
+  border: none;
+  border-radius: 50%;
+  z-index: 100;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: visibility 0s, opacity 0.5s ease;
+  -ms-transition: visibility 0s, opacity 0.5s ease;
+  transition: visibility 0s, opacity 0.5s ease;
+}
+
+nav .scroll-top-menu.show {
+  visibility: visible;
+  opacity: 1;
+}
+
+nav.open .scroll-top-menu {
+  display: none;
+}
+
+nav .scroll-top-menu svg {
+  height: 40px;
+  width: 40px;
 }
 
 main {
@@ -281,9 +316,9 @@ footer div.contact a svg {
   width: 25px;
   height: 25px;
   filter: grayscale(1) brightness(0) opacity(0.7);
-  -webkit-transition: all 200ms ease;
-  -ms-transition: all 200ms ease;
-  transition: all 200ms ease;
+  -webkit-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 footer div.contact a:hover svg {
@@ -346,7 +381,7 @@ footer div.contact td .material-icons-outlined {
     text-align: center;
   }
 
-  nav .floatmenu {
+  nav .float-menu {
     display: none;
   }
 
@@ -408,6 +443,12 @@ footer div.contact td .material-icons-outlined {
     -webkit-transform: scaleX(1) !important;
     -ms-transform: scaleX(1) !important;
     transform: scaleX(1) !important;
+  }
+
+  nav .scroll-top-menu {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
   }
 
   footer {
