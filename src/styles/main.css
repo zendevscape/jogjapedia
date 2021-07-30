@@ -213,13 +213,18 @@ nav .scroll-top-menu {
   transition: visibility 0s, opacity 0.5s ease;
 }
 
-nav .scroll-top-menu.show {
-  visibility: visible;
-  opacity: 1;
+nav .scroll-top-menu:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px #e400004d;
 }
 
 nav.open .scroll-top-menu {
   display: none;
+}
+  
+nav .scroll-top-menu.show {
+  visibility: visible;
+  opacity: 1;
 }
 
 nav .scroll-top-menu svg {
