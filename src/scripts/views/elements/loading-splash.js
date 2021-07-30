@@ -1,7 +1,7 @@
 class LoadingSplash extends HTMLElement {
   constructor() {
     super();
-    this.shadowDOM = this.attachShadow({mode: 'closed'});
+    this.shadowDOM = this.attachShadow({ mode: 'closed' });
   }
 
   connectedCallback() {

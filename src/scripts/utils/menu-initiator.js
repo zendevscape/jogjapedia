@@ -81,6 +81,6 @@ class MenuInitiator {
     event.stopPropagation();
     drawer.removeClass('open');
   }
-};
+}
 
 export default MenuInitiator;

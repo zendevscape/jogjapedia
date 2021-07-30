@@ -24,9 +24,8 @@ const Category = {
     if (this._category) {
       document.title = `${this._category.name}  | JogjaPedia`;
       return view.getTemplate(this._category.id, this._category.name);
-    } else {
-      return Error404.render();
     }
+    return Error404.render();
   },
 
   async afterRender() {
@@ -45,7 +44,7 @@ const Category = {
       }
     } catch (error) {
       console.log(error.message);
-    };
+    }
   },
 };
 

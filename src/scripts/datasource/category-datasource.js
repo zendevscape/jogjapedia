@@ -6,9 +6,7 @@ class CategoryDataSource {
   }
 
   static async getCategory(id) {
-    return (await this.getAllCategories()).find((category) => {
-      return category.id == id;
-    });
+    return (await this.getAllCategories()).find((category) => category.id === id);
   }
 }
 

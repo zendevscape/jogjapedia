@@ -6,9 +6,7 @@ class ItemDataSource {
   }
 
   static async getItem(catId, itemId) {
-    return (await this.getAllItems(catId)).find((item) => {
-      return item.id == itemId;
-    });
+    return (await this.getAllItems(catId)).find((item) => item.id === itemId);
   }
 
   static async searchItem(catId, query) {

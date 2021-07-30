@@ -1,6 +1,6 @@
 import $ from 'jquery';
 import CategoryDataSource from '../../datasource/category-datasource';
-import {createCategoryItem} from '../templates/template-creator';
+import { createCategoryItem } from '../templates/template-creator';
 
 const Explore = {
   async render() {
@@ -37,7 +37,7 @@ const Explore = {
       });
     } catch (error) {
       console.log(error.message);
-    };
+    }
   },
 };
 

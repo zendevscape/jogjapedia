@@ -1,8 +1,9 @@
 import $ from 'jquery';
 import GLightbox from 'glightbox';
+import Error404 from './error-404';
 import UrlParser from '../../router/url-parser';
 import ItemDataSource from '../../datasource/item-datasource';
-import {createDetailsWithMarket, createDetailsWithReview} from '../templates/template-creator';
+import { createDetailsWithMarket, createDetailsWithReview } from '../templates/template-creator';
 
 import 'glightbox/dist/css/glightbox.min.css';
 
@@ -28,7 +29,9 @@ const Details = {
         case 'kuliner':
         case 'kerajinan':
           return createDetailsWithMarket(this._item);
-      };
+        default:
+          return null;
+      }
     } else {
       return Error404.render();
     }

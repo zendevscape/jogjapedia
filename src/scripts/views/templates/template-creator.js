@@ -1,5 +1,4 @@
-const createCategoryItem = (category) => {
-  return `
+const createCategoryItem = (category) => `
     <a class="category__item" href="/#/category/${category.id}">
       <img data-src="/assets/img/icons/${category.id}.png"
         width="100px"
@@ -8,13 +7,11 @@ const createCategoryItem = (category) => {
         alt="${category.name}">
       <h2>${category.name}</h2>
     </a>`;
-};
 
-const createItem = (catId, item) => {
-  return `
+const createItem = (catId, item) => `
   <a class="item__node" href="/#/${catId}/${item.id}">
-    <img data-src="${item.picture.link ||
-      'https://picsum.photos/id/666/700/400?grayscale'}"
+    <img data-src="${item.picture.link
+      || 'https://picsum.photos/id/666/700/400?grayscale'}"
       height="200"
       class="lazyload"
       alt="${item.name}">
@@ -27,7 +24,6 @@ const createItem = (catId, item) => {
     </div>
   </a>
   `;
-};
 
 const createDetailsWithMarket = (item) => {
   let itemMarket = '';

@@ -1,5 +1,5 @@
 import $ from 'jquery';
-import {createItem} from '../../templates/template-creator';
+import { createItem } from '../../templates/template-creator';
 
 class CategorySearchView {
   getTemplate(id, name) {

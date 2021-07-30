@@ -164,20 +164,20 @@ const Home = {
       }
 
       const covidData = await CovidDataSource.getData();
-      const lastDate = covidData.lastDate;
-      const confirmed = covidData.confirmed;
-      const recovered = covidData.recovered;
-      const deceased = covidData.deceased;
-      const active = covidData.active;
+      const { lastDate } = covidData;
+      const { confirmed } = covidData;
+      const { recovered } = covidData;
+      const { deceased } = covidData;
+      const { active } = covidData;
 
-      $('.last-date').empty().append(`Pembaruan terakhir: <b>${new Date(lastDate).toLocaleDateString('id-ID', {day: 'numeric', month: 'long', year: 'numeric'})}</b>`);
+      $('.last-date').empty().append(`Pembaruan terakhir: <b>${new Date(lastDate).toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' })}</b>`);
       $('.confirmed .counter').empty().append(confirmed.toLocaleString('id-ID'));
       $('.active .counter').empty().append(active.toLocaleString('id-ID'));
       $('.recovered .counter').empty().append(recovered.toLocaleString('id-ID'));
       $('.deceased .counter').empty().append(deceased.toLocaleString('id-ID'));
     } catch (error) {
       console.log(error);
-    };
+    }
   },
 };
 
