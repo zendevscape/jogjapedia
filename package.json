@@ -31,7 +31,7 @@
     "workbox-webpack-plugin": "^6.1.5"
   },
   "dependencies": {
-    "bootstrap": "^5.0.1",
+    "bootstrap": "^5.1.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "glightbox": "^3.0.9",
     "jquery": "^3.6.0",
