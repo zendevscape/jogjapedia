@@ -11,8 +11,8 @@
   "author": "Ahmad Rulim <mfalkia342@gmail.com>",
   "license": "GPL-3.0-or-later",
   "devDependencies": {
-    "@babel/core": "^7.14.8",
-    "@babel/preset-env": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
     "babel-loader": "^8.2.2",
     "copy-webpack-plugin": "^9.0.0",
     "css-loader": "^6.2.0",
@@ -24,11 +24,11 @@
     "imagemin-svgo": "^9.0.0",
     "style-loader": "^3.2.1",
     "svgo": "^2.3.1",
-    "webpack": "^5.47.0",
+    "webpack": "^5.49.0",
     "webpack-cli": "^4.7.2",
     "webpack-dev-server": "^3.11.2",
     "webpack-merge": "^5.8.0",
-    "workbox-webpack-plugin": "^6.1.5"
+    "workbox-webpack-plugin": "^6.2.2"
   },
   "dependencies": {
     "bootstrap": "^5.1.0",
