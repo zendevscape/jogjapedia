@@ -24,7 +24,7 @@
     "imagemin-svgo": "^9.0.0",
     "style-loader": "^3.2.1",
     "svgo": "^2.4.0",
-    "webpack": "^5.51.1",
+    "webpack": "^5.51.2",
     "webpack-cli": "^4.8.0",
     "webpack-dev-server": "^4.0.0",
     "webpack-merge": "^5.8.0",
