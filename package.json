@@ -23,7 +23,7 @@
     "image-minimizer-webpack-plugin": "^2.2.0",
     "imagemin-jpegtran": "^7.0.0",
     "imagemin-optipng": "^8.0.0",
-    "imagemin-svgo": "^9.0.0",
+    "imagemin-svgo": "^10.0.0",
     "style-loader": "^3.2.1",
     "svgo": "^2.5.0",
     "webpack": "^5.52.1",
