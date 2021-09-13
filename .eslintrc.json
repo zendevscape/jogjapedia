@@ -17,8 +17,8 @@
     "import/no-extraneous-dependencies": [
       "error",
       {
-        "dependencies": [
-          "**/service-worker.js"
+        "devDependencies": [
+          "**/webpack.*.js"
         ]
       }
     ],
