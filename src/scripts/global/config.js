@@ -5,7 +5,7 @@ const CONFIG = {
   DATABASE_VERSION: 1,
   OBJECT_STORE_NAME: 'jogjapedia',
   COVID_API_URL: 'https://data.covid19.go.id/public/api',
-  CORS_PROXY_URL: 'https://cors.bridged.cc/',
+  CORS_PROXY_URL: 'https://api.allorigins.win/raw?url=',
 };
 
 export default CONFIG;
