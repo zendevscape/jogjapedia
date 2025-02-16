@@ -8,7 +8,7 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "keywords": [],
-  "author": "Muhammad Naufal K. I. A <mfalkia341@gmail.com>",
+  "author": "Muhammad Naufal <me@falkia34.dev>",
   "license": "GPL-3.0-or-later",
   "devDependencies": {
     "@babel/core": "7.15.5",
