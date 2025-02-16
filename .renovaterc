@@ -1,0 +1,63 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "config:recommended",
+        "schedule:weekends",
+        "npm:unpublishSafe",
+        ":semanticCommits",
+        ":pinAllExceptPeerDependencies"
+    ],
+    "baseBranches": [
+        "develop"
+    ],
+    "lockFileMaintenance": {
+        "enabled": true,
+        "extends": [
+            "schedule:weekends"
+        ],
+        "automerge": true,
+        "automergeStrategy": "fast-forward",
+        "labels": [
+            "dependencies"
+        ]
+    },
+    "packageRules": [
+        {
+            "groupName": "non-major dependencies",
+            "matchManagers": [
+                "npm"
+            ],
+            "matchUpdateTypes": [
+                "minor",
+                "patch"
+            ],
+            "automerge": true,
+            "automergeStrategy": "fast-forward",
+            "labels": [
+                "dependencies"
+            ]
+        },
+        {
+            "groupName": "major dependencies",
+            "matchManagers": [
+                "npm"
+            ],
+            "matchUpdateTypes": [
+                "major"
+            ],
+            "labels": [
+                "dependencies",
+                "breaking"
+            ]
+        },
+        {
+            "matchManagers": [
+                "github-actions"
+            ],
+            "labels": [
+                "dependencies",
+                "github actions"
+            ]
+        }
+    ]
+}
