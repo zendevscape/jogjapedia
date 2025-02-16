@@ -3,7 +3,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const WorkboxWebpackPlugin = require('workbox-webpack-plugin');
 const ImageMinimizerPlugin = require('image-minimizer-webpack-plugin');
-const { extendDefaultPlugins } = require('svgo');
 
 module.exports = {
   entry: path.resolve(__dirname, 'src/scripts/index.js'),
@@ -53,7 +52,8 @@ module.exports = {
           ['jpegtran', { progressive: true }],
           ['optipng', { optimizationLevel: 5 }],
           ['svgo', {
-            plugins: extendDefaultPlugins([
+            plugins: [
+              'preset-default',
               {
                 name: 'removeViewBox',
                 active: false,
@@ -64,7 +64,7 @@ module.exports = {
                   attributes: [{ xmlns: 'http://www.w3.org/2000/svg' }],
                 },
               },
-            ]),
+            ],
           }],
         ],
       },
