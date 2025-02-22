@@ -11,8 +11,8 @@
   "author": "Muhammad Naufal <me@falkia34.dev>",
   "license": "GPL-3.0-or-later",
   "devDependencies": {
-    "@babel/core": "7.26.8",
-    "@babel/preset-env": "7.26.8",
+    "@babel/core": "7.26.9",
+    "@babel/preset-env": "7.26.9",
     "babel-loader": "8.4.1",
     "copy-webpack-plugin": "9.1.0",
     "css-loader": "6.11.0",
