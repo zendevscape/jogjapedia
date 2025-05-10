@@ -1,0 +1,170 @@
+[
+  {
+    "id": "perak-kotagede",
+    "category": "Kerajinan",
+    "name": "Perak Kotagede",
+    "description": "<p>Kerajinan perak Kotagede muncul di era Kesultanan Mataram pada abad ke-16. Sejak masa pemerintahan Panembahan Senopati yang memerintahkan perajin untuk membuat perhiasan dari emas dan perak, minat inilah yang mendorong berkembangnya kerajinan perak hingga saat ini. Perak Kotagede ini memiliki harga yang beragam, tergantung dari tingkat kesulitan dan kecantikan dari kerajinan perak itu sendiri.</p>",
+    "picture": {
+      "link": "/assets/img/kerajinan/perak-kotagede.jpg",
+      "license": "© Tropenmuseum / CC BY-SA 3.0"
+    },
+    "price": "Rp300.000 - Rp2.000.000",
+    "market": [
+      {
+        "name": "Salim Silver",
+        "location": "Kebohan KG 3/547, Purbayan, Kotagede, Kota Yogyakarta, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.645597510329!2d110.39969071490835!3d-7.827282779915419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a571440134b63%3A0x5c7989d8a5177cca!2sSalim%20Silver!5e0!3m2!1sid!2sid!4v1624086392396!5m2!1sid!2sid"
+      },
+      {
+        "name": "Ansor's Silver",
+        "location": "Jl. Tegal Gendu No. 28, Prenggan, Kotagede, Kota Yogyakarta, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.651461856739!2d110.39045811490833!3d-7.8266643799080065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a571a85f61241%3A0xfe60fe16b13bf03!2sAnsor&#39;s%20Silver!5e0!3m2!1sid!2sid!4v1624086640627!5m2!1sid!2sid"
+      },
+      {
+        "name": "Narti's Silver",
+        "location": "Jl. Tegal Gendu No. 22, Prenggan, Kotagede, Kota Yogyakarta, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.6531933819683!2d110.39007571490832!3d-7.826481779905836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a571a969153e7%3A0x2df25702921fb6de!2sNarti%20Silver!5e0!3m2!1sid!2sid!4v1624086690721!5m2!1sid!2sid"
+      }
+    ]
+  },
+  {
+    "id": "batik",
+    "category": "Kerajinan",
+    "name": "Batik",
+    "description": "<p>Yogyakarta termasuk kota yang masih memegang erat budaya, salah satunya budaya batik membatik. Batik Yogyakarta merupakan batik yang banyak digemari banyak orang, terlihat ketika berkunjung kemari banyak orang masih mencari batik. Batik ini memiliki harga yang beragam, tergantung kain dan motifnya.</p>",
+    "picture": {
+      "link": "/assets/img/kerajinan/batik.jpg",
+      "license": "© Thomas Bergholz / CC BY-SA 3.0 DE"
+    },
+    "price": "Rp50.0000 - Rp4.000.000",
+    "market": [
+      {
+        "name": "Hamzah Batik Malioboro",
+        "location": "Jl. Margo Mulyo No. 9, Ngupasan, Gondomanan, Kota Yogyakarta, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63245.87593698895!2d110.3427806!3d-7.8038759!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5788f240c627%3A0xfaca4923aefb4e7b!2sHamzah%20Batik%20Malioboro!5e0!3m2!1sen!2sid!4v1624086977567!5m2!1sen!2sid"
+      },
+      {
+        "name": "Batik Rumah Suryowijayan",
+        "location": "Jl. Suryowijayan No. 427, Gedongkiwo, Mantrijeron, Kota Yogyakarta, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63245.9282651613!2d110.3427805!3d-7.80353!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a579300000001%3A0x61174e26ae274b56!2sBatik%20Rumah%20Suryowijayan!5e0!3m2!1sen!2sid!4v1624087087177!5m2!1sen!2sid"
+      },
+      {
+        "name": "Rianty Batik",
+        "location": "Jl. Malioboro No. 79, Sosromenduran, Gedong Tengen, Kota Yogyakarta, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63244.58779273626!2d110.3462008!3d-7.812386!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5827c5f4910b%3A0x5418941b5976d91d!2sRianty%20Batik!5e0!3m2!1sen!2sid!4v1624087113683!5m2!1sen!2sid"
+      }
+    ]
+  },
+  {
+    "id": "gerabah-kasongan",
+    "category": "Kerajinan",
+    "name": "Gerabah Kasongan",
+    "description": "<p>Gerabah Kasongan adalah gerabah khas dari daerah Kasongan, Yogyakarta. Gerabah sendiri merupakan kerajinan tangan yang umumnya terbuat dari tanah liat. Hasil seni gerabah antara lain; kendi, celengan, periuk, dan lain-lain.</p>",
+    "picture": {
+      "link": "/assets/img/kerajinan/gerabah-kasongan.jpg",
+      "license": "© Asri Nurhayati / CC BY-SA 4.0"
+    },
+    "price": "Rp40.000 - Rp60.000",
+    "market": [
+      {
+        "name": "Kasongan Ceramic & Souvenirs",
+        "location": "Kajen, Bangunjiwo, Kasihan, Kabupaten Bantul, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63240.320334665645!2d110.2607615!3d-7.8405133!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a562946ea2315%3A0x625252f5b960126a!2sKasongan%20Ceramic%20%26%20Souvenirs!5e0!3m2!1sen!2sid!4v1624087483023!5m2!1sen!2sid"
+      },
+      {
+        "name": "Putra Insan Keramik & Craft Kasongan Jogja",
+        "location": "Jl. Kasongan, Kajen, Bangunjiwo, Kasihan, Kabupaten Bantul, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63240.320334665645!2d110.2607615!3d-7.8405133!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a562e4c7460f9%3A0x10d8a3b4e171314f!2sPutra%20Insan%20Keramik%20%26%20Craft%20Kasongan%20Jogja!5e0!3m2!1sen!2sid!4v1624087509396!5m2!1sen!2sid"
+      },
+      {
+        "name": "Sastro Keramik",
+        "location": "Jl. Kasongan, Kajen, Bangunjiwo, Kasihan, Kabupaten Bantul, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d988.1189292526036!2d110.3363653057162!3d-7.845175787066117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaa544b0357ec598a!2sSastro%20Keramik!5e0!3m2!1sen!2sid!4v1624087732972!5m2!1sen!2sid"
+      }
+    ]
+  },
+  {
+    "id": "keris",
+    "category": "Kerajinan",
+    "name": "Keris",
+    "description": "<p>Keris ialah sejenis senjata pendek kebangsaan Melayu yang digunakan sejak 600 tahun yang lalu. Keris bukan hanya merupakan senjata, tapi juga memiliki makna filosofi yang luhur, serta harapan-harapan yang dituangkan oleh empu pembuatnya.</p>",
+    "picture": {
+      "link": "/assets/img/kerajinan/keris.jpg",
+      "license": "© Crisco 1492 / CC BY-SA 3.0"
+    },
+    "price": "Rp60.000 - Rp100.000",
+    "market": [
+      {
+        "name": "Batik Keris Malioboro",
+        "location": "Jl. Malioboro No. 21, Sosromenduran, Gedong Tengen, Kota Yogyakarta, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d252956.78238307562!2d110.202371!3d-7.8479099!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5826261e6ee7%3A0x57c1e64254ee9e05!2sBatik%20Keris%20-%20Malioboro!5e0!3m2!1sen!2sid!4v1624167445567!5m2!1sen!2sid"
+      },
+      {
+        "name": "Keris Instan Pustaka Jaya",
+        "location": "Kios Pasar Beringharjo, Blok C, Los 3, Lantai 1, Ngupasan, Gondomanan, Kota Yogyakarta, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d126480.04375930442!2d110.3488632!3d-7.8424767!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a57888033fdb5%3A0x3e4c45120a8b16b!2sKeris%20Intan%20Pusaka%20Jaya!5e0!3m2!1sen!2sid!4v1624167468617!5m2!1sen!2sid"
+      },
+      {
+        "name": "Sumekar Art Jual Beli Keris dan Antik",
+        "location": "Jl. Kasongan Utara, Nyemengan, Tirtonirmolo, Kasihan, Kabupaten Bantul, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d252956.78238307562!2d110.202371!3d-7.8479099!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5631ddf3cc61%3A0xf6501d43188678b1!2sSumekar%20Art%20Jual%20Beli%20Keris%20Dan%20Antik!5e0!3m2!1sen!2sid!4v1624167498624!5m2!1sen!2sid"
+      }
+    ]
+  },
+  {
+    "id": "surjan",
+    "category": "Kerajinan",
+    "name": "Surjan",
+    "description": "<p>Surjan adalah nama pakaian adat Jawa, khususnya Jawa Tengah dan Yogyakarta. Surjan terutama dikenakan oleh pria, tetapi sedikit wanita yang memakainya dalam bentuk kebaya. Surjan sering muncul dalam ritual adat bersama jarik dan blangkon.</p>",
+    "picture": {
+      "link": "/assets/img/kerajinan/surjan.jpg",
+      "license": "© Puryono / CC BY-SA 3.0"
+    },
+    "price": "Rp40.000 - Rp60.000",
+    "market": [
+      {
+        "name": "Sakina Baju Adat Surjan Lurik & Blangkon",
+        "location": "Jaranan, Panggungharjo, Sewon, Kabupaten Bantul, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d126479.93682029417!2d110.3488634!3d-7.8428284!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a57006b097059%3A0xcb6bf8c185ef2bd9!2sToko%20Sakina%20Baju%20Adat%20Surjan%20Lurik%20%26%20Blangkon!5e0!3m2!1sen!2sid!4v1624167677417!5m2!1sen!2sid"
+      },
+      {
+        "name": "Penjahit Surjan dan Kebaya",
+        "location": "Jl. Pasar Ngipik-Pleret KM. 01, Tegal Cerme, Baturetno, Banguntapan, Kabupaten Bantul, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.6363456774907!2d110.4083946147784!3d-7.8282582943592205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5724461f9945%3A0xeed69b4a80c0b643!2sPENJAHIT%20SURJAN%20dan%20KEBAYA!5e0!3m2!1sen!2sid!4v1624167718955!5m2!1sen!2sid"
+      },
+      {
+        "name": "Java Ombus",
+        "location": "Gg. Mawar, Jl. Cerme No. 08, Wirono, Baturetno, Banguntapan, Kabupaten Bantul, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.6359833632696!2d110.40832451477847!3d-7.828296494359185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a572b317bae19%3A0xba0772e285116efd!2sJava%20Ombus%20(Pengrajin%20Busana%20Jawa)!5e0!3m2!1sen!2sid!4v1624167742266!5m2!1sen!2sid"
+      }
+    ]
+  },
+  {
+    "id": "blangkon",
+    "category": "Kerajinan",
+    "name": "Blangkon",
+    "description": "<p>Blangkon identik dengan busana tradisional Jawa, khususnya di Jawa Tengah dan Yogyakarta. Dalam perkembangannya, blangkon digunakan tidak hanya sebagai penutup kepala, tetapi juga sebagai simbol status bagi orang yang memakainya.</p>",
+    "picture": {
+      "link": "/assets/img/kerajinan/blangkon.jpg",
+      "license": "© Crisco 1492 / CC BY-SA 4.0"
+    },
+    "price": "Rp30.000 - Rp40.000",
+    "market": [
+      {
+        "name": "Sakina Baju Adat Surjan Lurik & Blangkon",
+        "location": "Jaranan, Panggungharjo, Sewon, Kabupaten Bantul, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d126479.93682029417!2d110.3488634!3d-7.8428284!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a57006b097059%3A0xcb6bf8c185ef2bd9!2sToko%20Sakina%20Baju%20Adat%20Surjan%20Lurik%20%26%20Blangkon!5e0!3m2!1sen!2sid!4v1624167677417!5m2!1sen!2sid"
+      },
+      {
+        "name": "Mulyo Harsono Blangkon",
+        "location": "Jl. Masjid Besar Mataram, Sayangan, Jagalan, Banguntapan, Kabupaten Bantul, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d22359.415777258786!2d110.38978904917379!3d-7.829598853934681!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5718e2869a4f%3A0xb2e604baed057bde!2sMulyo%20Harsono%20Blangkon!5e0!3m2!1sen!2sid!4v1624167826739!5m2!1sen!2sid"
+      },
+      {
+        "name": "Omah Blangkon dan Batik",
+        "location": "Jl. Bugisan WB 3 No. 588, Patangpuluhan, Wirobrajan, Kota Yogyakarta, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d19920.847549936105!2d110.34663646642466!3d-7.8113176303962195!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a57ec798e6427%3A0xfe6bf7bb1b77f23d!2sOmah%20Blangkon%20Dan%20Batik!5e0!3m2!1sen!2sid!4v1624167855334!5m2!1sen!2sid"
+      }
+    ]
+  }
+]
