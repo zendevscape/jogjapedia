@@ -11,7 +11,7 @@
   "author": "Muhammad Naufal <me@falkia34.dev>",
   "license": "GPL-3.0-or-later",
   "devDependencies": {
-    "@babel/core": "7.28.3",
+    "@babel/core": "7.28.4",
     "@babel/preset-env": "7.28.3",
     "babel-loader": "8.4.1",
     "copy-webpack-plugin": "9.1.0",
@@ -26,7 +26,7 @@
     "imagemin-svgo": "10.0.1",
     "style-loader": "3.3.4",
     "svgo": "2.8.0",
-    "webpack": "5.101.3",
+    "webpack": "5.102.1",
     "webpack-cli": "4.10.0",
     "webpack-dev-server": "4.15.2",
     "webpack-merge": "5.10.0",
