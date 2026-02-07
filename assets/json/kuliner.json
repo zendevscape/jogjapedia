@@ -1,0 +1,338 @@
+[
+  {
+    "id": "gudeg",
+    "category": "Kuliner",
+    "name": "Gudeg",
+    "description": "<p>Gudeg merupakan makanan khas yang berasal dari Yogyakarta dan Jawa tengah. Makanan ini terbuat dari nangka muda yang dimasak dengan santan. Gudeg biasanya dimakan bersama nasi serta ditemani oleh kuah santan kental (areh), ayam kampung, telur, tempe, tahu, dan sambal goreng krecek.</p>",
+    "picture": {
+      "link": "/assets/img/kuliner/gudeg.jpg",
+      "license": "© Christian Razukas / CC BY-SA 2.0"
+    },
+    "price": "Rp20.000 - Rp100.000",
+    "market": [
+      {
+        "name": "Gudeg Yu Djum Wijilan 167",
+        "location": "Jl. Wijilan No.167, Panembahan, Kraton, Kota Yogyakarta, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.8610584585117!2d110.3645798149081!3d-7.804530279641744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5785603eda9d%3A0x482e08cfedceed8f!2sGudeg%20Yu%20Djum%20Wijilan%20167!5e0!3m2!1sen!2sid!4v1623855746927!5m2!1sen!2sid"
+      },
+      {
+        "name": "Gudeg Permata Bu Narti",
+        "location": "Jl. Gajah Mada No.2, Gunungketur, Pakualaman, Kota Yogyakarta, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.8924743385323!2d110.37100531490807!3d-7.801207279601849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a57814f2e420b%3A0x301ea11da2471e74!2sGudeg%20Permata%20Bu%20Narti!5e0!3m2!1sen!2sid!4v1623856000746!5m2!1sen!2sid"
+      },
+      {
+        "name": "Gudeg Mercon Bu Tinah",
+        "location": "Jl. Asem Gede No.8, Cokrodiningratan, Jetis, Kota Yogyakarta, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.078765157398!2d110.36048281490793!3d-7.781473479365235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a583bdb676539%3A0xe19161e9a35de2ba!2sGudeg%20Mercon%20Bu%20Tinah!5e0!3m2!1sen!2sid!4v1623856062704!5m2!1sen!2sid"
+      }
+    ]
+  },
+  {
+    "id": "bakpia-pathok",
+    "category": "Kuliner",
+    "name": "Bakpia Pathok",
+    "description": "<p>Bakpia Pathok adalah kue panggang dengan isian biasanya campuran kacang hijau dan gula, lalu dibalut dengan tepung dan dibuat berbentuk bulat pipih. Bakpia Pathok sendiri adalah salah satu dari banyak varian bakpia yang menjadi salah satu makanan khas asal Jogja ini.</p>",
+    "picture": {
+      "link": "/assets/img/kuliner/bakpia-pathok.jpg",
+      "license": "© Dietrich Ayala / CC BY 2.0"
+    },
+    "price": "Rp30.000 - Rp50.000",
+    "market": [
+      {
+        "name": "Bakpia Pathok 25 Pasar Pathok",
+        "location": "Ps. Patuk, Jl. Bhayangkara No. 6, Ngupasan, Gondomanan, Kota Yogyakarta, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5590.24997156876!2d110.36036660113353!3d-7.800023419515124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x64322a39540429ad!2sBakpia%20Pathok%2025%20Pasar%20Pathok!5e0!3m2!1sen!2sid!4v1624168300775!5m2!1sen!2sid"
+      },
+      {
+        "name": "Bakpia Pathok 145",
+        "location": "Jl. Gambiran No. 67A, Pandeyan, Umbulharjo, Kota Yogyakarta, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9401.204838559392!2d110.38440675512032!3d-7.819462516978014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5e3f638fd3de6adc!2sBakpia%20Pathok%20145%20(%20IBU%20SRI%20ASTUTI%20)!5e0!3m2!1sen!2sid!4v1624168413928!5m2!1sen!2sid"
+      },
+      {
+        "name": "Bakpia Pathok 555",
+        "location": "Jl. Karel Sasuit Tubun, Ngampilan, Kota Yogyakarta, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.4243490658077!2d110.3579261321358!3d-7.797572888429622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x567d7ff54bc5247e!2sBakpia%20Pathok%20555!5e0!3m2!1sen!2sid!4v1624168577307!5m2!1sen!2sid"
+      }
+    ]
+  },
+  {
+    "id": "gethuk",
+    "category": "Kuliner",
+    "name": "Gethuk",
+    "description": "<p>Gethuk merupakan makanan ringan yang berbahan dasar ketela pohon atau singkong. Untuk membuat gethuk, awalnya kita harus mengupas lalu merebus singkong. Apabila singkong sudah matang ditumbuk haluskan dengan cara digiling, setelah itu agar lebih enak diberi pemanis gula. Sebagai pelengkap, biasanya getuk ditaburi dengan parutan kelapa.</p>",
+    "picture": {
+      "link": "/assets/img/kuliner/gethuk.jpg",
+      "license": "© Midori / CC BY-SA 3.0"
+    },
+    "price": "Rp10.000 – Rp15.000 / 100 gram",
+    "market": [
+      {
+        "name": "Omahe Gethuk",
+        "location": " Jl. Imogiri Barat KM. 7, Semail, Bangunharjo, Sewon, Kabupaten Bantul, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11020.084514241862!2d110.29730224585155!3d-7.804646287233601!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7af922e4c9b25d%3A0x5dfc458a8f4218a0!2sOmahe%20gethuk!5e0!3m2!1sen!2sid!4v1624170106575!5m2!1sen!2sid"
+      },
+      {
+        "name": "Gethuk Lopis Bu Wantini",
+        "location": "Geplakan, Banyuraden, Gamping, Kabupaten Sleman, Daerah Istimewa Yogyakarta",
+        "map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10862.45478824101!2d110.336864169462!3d-7.790694436698193!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xea6b5d107b598be2!2sGethuk%20Lopis%20Bu%20Wantini!5e0!3m2!1sen!2sid!4v1624170139992!5m2!1sen!2sid"
+      },
+      {
+        "name": "Gethuk Lindri Bu Indari",
+        "location": "Keparakan Kidul MG I/1158, Keparakan, Mergangsan, Kota Yogyakarta, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.7822338613837!2d110.37247856940934!3d-7.812861731184637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a57d7c76dbea9%3A0xf5de9cc91906fbff!2sGethuk%20Lindri%20Bu%20Indari!5e0!3m2!1sen!2sid!4v1624170168690!5m2!1sen!2sid"
+      }
+    ]
+  },
+  {
+    "id": "geplak",
+    "category": "Kuliner",
+    "name": "Geplak",
+    "description": "<p>Geplak merupakan satu kuliner khas bantul yang tidak boleh lupa untuk dicicipi, makanan ini terbuat dari parutan kelapa dan gula pasir atau gula jawa, Geplak sendiri mempunyai rasa yang manis. Produksi geplak umumnya dapat ditemui di daerah Bantul, Yogyakarta. Yang kebanyakan diproduksi oleh industri rumah tangga dan dijual di pasar, pinggir jalan, atau di rumah.</p>",
+    "picture": {
+      "link": "/assets/img/kuliner/geplak.jpg",
+      "license": "© Danangtrihartanto / CC BY-SA 4.0"
+    },
+    "price": "Rp10.000 – Rp15.000 / bungkus",
+    "market": [
+      {
+        "name": "Geplak Jago",
+        "location": "Jl. K. H. Wahid Hasyim No. 28, Bejen, Gose, Kabupaten Bantul, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d24734.05280885571!2d110.31205335435729!3d-7.892054750905091!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7aff598cc67e93%3A0x814a9df129a69310!2sGeplak%20jago!5e0!3m2!1sen!2sid!4v1624170220913!5m2!1sen!2sid"
+      },
+      {
+        "name": "Geplak Widodo",
+        "location": "Jl. Dr. Sutomo No. 18, Nyangkringan, Bantul, Kabupaten Bantul, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5836.496804592694!2d110.32769380058177!3d-7.88938503511965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7aff9ef35d5e49%3A0xc7316711eafb743!2sGeplak%20Widodo!5e0!3m2!1sen!2sid!4v1624170356793!5m2!1sen!2sid"
+      },
+      {
+        "name": "Pusat Oleh Oleh Geplak Peyek Tumpuk Bantul",
+        "location": "Jl. Parangtritis, Gelangan, Patalan, Jetis, Kabupaten Bantul, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7903.623640593284!2d110.3480621647705!3d-7.914716542036757!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2340deb5d30999a6!2sPusat%20Oleh%20Oleh%20Geplak%20Peyek%20Tumpuk%20Bantul!5e0!3m2!1sen!2sid!4v1624170412642!5m2!1sen!2sid"
+      }
+    ]
+  },
+  {
+    "id": "gatot",
+    "category": "Kuliner",
+    "name": "Gatot",
+    "description": "<p>Gatot merupakan makanan yang terbuat dari bahan ketela atau ubi kayu. Gatot sendiri sebenarnya merupakan salah satu varian dari makanan geplek yang telah melalui proses pengeringan dan sudah berwarna hitam. Sajian gatot biasanya ditemani dengan taburan gula merah, garam, dan kelapa agar membuatnya terasa manis dan gurih. Jika ingin rasa dan tekstur yang lebih enak lagi, dapat ditambah dengan kelapa yang telah diparut.</p>",
+    "picture": {
+      "link": "/assets/img/kuliner/gatot.jpg",
+      "license": "© Danangtrihartanto / CC BY-SA 4.0"
+    },
+    "price": "Rp10.000 – Rp50.000 / kilogram",
+    "market": [
+      {
+        "name": "Gathot Tiwul Mbah Hadi",
+        "location": "Jl. AM Sangaji, Cokrodiningratan, Jetis, Kota Yogyakarta, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18006.643648495905!2d110.35728615241283!3d-7.7870750688157635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a583096243da7%3A0xdf8cfa8236e5a9bf!2sGathot%20Tiwul%20Mbah%20Hadi!5e0!3m2!1sen!2sid!4v1624172155091!5m2!1sen!2sid"
+      },
+      {
+        "name": "Tiwul Ayu Mbok Sum",
+        "location": "Jl. Ngapak - Kentheng No. 4, Kwarasan, Nogotirto, Gamping, Kabupaten Sleman, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26211.282727208043!2d110.33318267422896!3d-7.789404807103621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a595ca5e97f85%3A0x81ccad5d40bc11ea!2sTiwul%20Ayu%20Mbok%20Sum!5e0!3m2!1sen!2sid!4v1624172047332!5m2!1sen!2sid"
+      },
+      {
+        "name": "Tiwul Gatot Bu Trisni",
+        "location": "Jl. Sidoarum-Gamping, Patukan, Ambarketawang, Gamping, Kabupaten Sleman, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15811.756829883892!2d110.3151165!3d-7.7962615!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7af72e3344c371%3A0xff0cd5f7fd9ef8e4!2sTiwul%20gatot%20bu%20trisni!5e0!3m2!1sen!2sid!4v1624172178283!5m2!1sen!2sid"
+      }
+    ]
+  },
+  {
+    "id": "tiwul",
+    "category": "Kuliner",
+    "name": "Tiwul",
+    "description": "<p>Tiwul merupakan makanan pokok biasanya penduduk Gunung Kidul dan Wonogiri yang dijadikan sebagai pengganti nasi beras. Tiwul terbuat dari bahan ketela pohon atau singkong. Tiwul adalah varian dari gaplek. Umumnya dijadikan sebagaian makanan pokok, walaupun mempunyai kandungan kalorinya yang lebih rendah dibanding beras namun cukup untuk memenuhi sebagai bahan makanan pengganti beras.</p>",
+    "picture": {
+      "link": "/assets/img/kuliner/tiwul.jpg",
+      "license": "© PL09Puryono / CC BY-SA 3.0"
+    },
+    "price": "Rp15.000 - Rp40.000 / kilogram",
+    "market": [
+      {
+        "name": "Gathot Tiwul Mbah Hadi",
+        "location": "Jl. AM Sangaji, Cokrodiningratan, Jetis, Kota Yogyakarta, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18006.643648495905!2d110.35728615241283!3d-7.7870750688157635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a583096243da7%3A0xdf8cfa8236e5a9bf!2sGathot%20Tiwul%20Mbah%20Hadi!5e0!3m2!1sen!2sid!4v1624172155091!5m2!1sen!2sid"
+      },
+      {
+        "name": "Tiwul Ayu Mbok Sum",
+        "location": "Jl. Ngapak - Kentheng No. 4, Kwarasan, Nogotirto, Gamping, Kabupaten Sleman, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26211.282727208043!2d110.33318267422896!3d-7.789404807103621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a595ca5e97f85%3A0x81ccad5d40bc11ea!2sTiwul%20Ayu%20Mbok%20Sum!5e0!3m2!1sen!2sid!4v1624172047332!5m2!1sen!2sid"
+      },
+      {
+        "name": "Tiwul Gatot Bu Trisni",
+        "location": "Jl. Sidoarum-Gamping, Patukan, Ambarketawang, Gamping, Kabupaten Sleman, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15811.756829883892!2d110.3151165!3d-7.7962615!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7af72e3344c371%3A0xff0cd5f7fd9ef8e4!2sTiwul%20gatot%20bu%20trisni!5e0!3m2!1sen!2sid!4v1624172178283!5m2!1sen!2sid"
+      }
+    ]
+  },
+  {
+    "id": "kopi-joss",
+    "category": "Kuliner",
+    "name": "Kopi Joss",
+    "description": "<p>Kopi joss adalah salah satu kuliner yang wajib dicicipi ketika sedang berkunjung ke daerah jogja, Kopi joss adalah kopi khas jogja yang dimasukan arang panas. Cara penghidangannya yaitu memasukan arang panas ke dalam cangkir kopi dan diberi gula. Kopi joss biasanya dapat ditemui di angkringan sekitar daerah Malioboro.</p>",
+    "picture": {
+      "link": "/assets/img/kuliner/kopi-joss.jpg",
+      "license": "© Ivan Lanin / CC BY-SA 2.0"
+    },
+    "price": "Rp5.0000 - Rp10.000",
+    "market": [
+      {
+        "name": "Angkringan Kopi Joss \"Lik Man\"",
+        "location": "Jl. Ps. Kembang, Sosromenduran, Gedong Tengen, Kota Yogyakarta, Daerah Istimewa Yogyakarta",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6942.47528429756!2d110.36142218781693!3d-7.7891986685002115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a58258545add9%3A0x92ce1fde42439ef9!2sAngkringan%20Kopi%20Jos%20Lik%20Man!5e0!3m2!1sen!2sid!4v1624171115534!5m2!1sen!2sid"
+      },
+      {
+        "name": "Angkringan Kopi Joss \"Pak Agus\"",
+        "location": "Jl. P. Mangkubumi No. 5, Sosromenduran, Gedong Tengen, Kota Yogyakarta, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8376.131487142562!2d110.36139763681716!3d-7.789021445712993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a58259d7ba5e5%3A0x96640b5612abfd23!2sAngkringan%20Kopi%20Jos%20%22Pak%20Agus%22!5e0!3m2!1sid!2sid!4v1624171170548!5m2!1sid!2sid"
+      },
+      {
+        "name": "Kopi Joss \"Lek No\"",
+        "location": "Sosromenduran, Gedong Tengen, Kota Yogyakarta, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14086.858749979461!2d110.35975498125366!3d-7.790744915518177!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5825855fbd6d%3A0xf268acf77593b86f!2sKopi%20Joss%20&#39;Lek%20No&#39;!5e0!3m2!1sen!2sid!4v1624171202650!5m2!1sen!2sid"
+      }
+    ]
+  },
+  {
+    "id": "cokelat-monggo",
+    "category": "Kuliner",
+    "name": "Cokelat Monggo",
+    "description": "<p>Cokelat monggo adalah oleh-oleh yang tidak boleh dilewatkan ketika sedang berkunjung ke “kota gudeg”. Cokelat monggo sendiri menggunakan resep produk dari Belgia, walaupun begitu makanan ini tetap diolah dengan bahan-bahan asli Indonesia. Cokelat monggo sendiri menyediakan banyak varian rasa mulai dari cokelat putih sampai karamel.</p>",
+    "picture": {
+      "link": "/assets/img/kuliner/cokelat-monggo.jpg",
+      "license": "© Irul Maralewa11 / CC BY-SA 4.0"
+    },
+    "price": "Rp50.000 – Rp200.000",
+    "market": [
+      {
+        "name": "Chocolate Monggo Factory & Store",
+        "location": "Jl. Dalem KG III No. 978, Purbayan, Kotagede, Kota Yogyakarta, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11019.28111459104!2d110.394601279343!3d-7.835062193960122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a57163c34ffeb%3A0x1b99dfb1591af02d!2sChocolate%20Monggo%20Factory%20%26%20Store%20-%20Kotagede%20Cultural%20Heritage!5e0!3m2!1sen!2sid!4v1624170786170!5m2!1sen!2sid"
+      },
+      {
+        "name": "Chocolate Monggo Tirtodipuran",
+        "location": "Jl. Tirtodipuran No. 10, Mantrijeron, Kota Yogyakarta, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19353.100696209007!2d110.35559525802358!3d-7.825072136834843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a57bda73273ab%3A0x271163afd1cac6e4!2sChocolate%20Monggo%20Tirtodipuran!5e0!3m2!1sen!2sid!4v1624170888772!5m2!1sen!2sid"
+      },
+      {
+        "name": "Coklat Monggo International Airport",
+        "location": "Bandara Internasional Adi Sucipto, Maguwoharjo, Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31170.810358749633!2d110.42416572575912!3d-7.787202540047909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5a04465e933f%3A0x3c6d5079db8ee9b8!2sCoklat%20Monggo%20International%20Airport!5e0!3m2!1sen!2sid!4v1624171028875!5m2!1sen!2sid"
+      }
+    ]
+  },
+  {
+    "id": "sate-klathak",
+    "category": "Kuliner",
+    "name": "Sate Klathak",
+    "description": "<p>Sate klathak merupakan sate yang unik dibandingkan dari hidangan sate lainnya, karena hanya menggunakan bumbu utama dari garam dan lada. Sate klatak berasal dari Kecamatan Pleret, Kabupaten Bantul, Yogyakarta. Biasanya dibuay dari daging kambing. “Klathak” yang berarti kegiatan membakar sate di pembakaran terbuka berasal dari bahasa Jawa.</p>",
+    "picture": {
+      "link": "/assets/img/kuliner/sate-klathak.jpg",
+      "license": "© Danangtrihartanto / CC BY-SA 4.0"
+    },
+    "price": "Rp25.000 – Rp35.000 / porsi",
+    "market": [
+      {
+        "name": "Sate Klathak Pak Pong Pusat",
+        "location": "Jl. Sultan Agung No. 18, Jejeran II, Wonokromo, Pleret, Kabupaten Bantul, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13882.25590855607!2d110.38055228955227!3d-7.870069208157889!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a56854a9b3e95%3A0xdbe6f91fd89db72e!2sSate%20Klathak%20Pak%20Pong%20pusat!5e0!3m2!1sen!2sid!4v1624170594850!5m2!1sen!2sid"
+      },
+      {
+        "name": "Sate Klathak Pak Bari Pasar Wonokromo",
+        "location": "Pasar Wonokromo, Jalan Imogiri Timur No. 5, Wonokromo, Pleret, Kabupaten Bantul, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15808.97431596644!2d110.38283761856134!3d-7.869560824583722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a569b6a53a729%3A0x880ca732cdeee1ac!2sSate%20Klathak%20Pak%20Bari%20Pasar%20Wonokromo!5e0!3m2!1sen!2sid!4v1624170651211!5m2!1sen!2sid"
+      },
+      {
+        "name": "Sate Klathak Pak JeDe Khas Jejeran",
+        "location": "Jl. Nologaten No. 46, Nologaten, Caturtunggal, Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8021.271002364035!2d110.39678485342104!3d-7.775388269209764!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59c00b414079%3A0xa77b3974175617bd!2sSate%20Klathak%20Pak%20JeDe%20khas%20Jejeran!5e0!3m2!1sen!2sid!4v1624170688182!5m2!1sen!2sid"
+      }
+    ]
+  },
+  {
+    "id": "yangko",
+    "category": "Kuliner",
+    "name": "Yangko",
+    "description": "<p>Yangko merupakan salah satu makanan tradisional khas Jogja yang berbahan tepung ketan. Yangko mempunyai bentuk kotak dengan dibalur tepung ketan, kenyal, dan mempunyai cita rasa manis. Biasanya Yangko mempunyai isian campuran cincangan kacang seperti kue moci dari Jepang. Perbedaan antara yangko dan moci adalah moci mempunyai tekstur lebih lembek dan kenyal dibandingkan yangko.</p>",
+    "picture": {
+      "link": "/assets/img/kuliner/yangko.jpg",
+      "license": "© Midori / CC BY-SA 3.0"
+    },
+    "price": "Rp20.000 - Rp30.000 / bungkus",
+    "market": [
+      {
+        "name": "Yangko Pak Prapto",
+        "location": "Jl. Pramuka No. 82, Giwangan, Umbulharjo, Kota Yogyakarta, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d18802.21241631786!2d110.38021891041195!3d-7.823838411009934!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a570fd94e5883%3A0x44d85ef827798c59!2sYangko%20Pak%20Prapto!5e0!3m2!1sen!2sid!4v1624169483117!5m2!1sen!2sid"
+      },
+      {
+        "name": "Yangko Giant",
+        "location": "Gg. Apel No. 1047, Sorosutan, Umbulharjo, Kota Yogyakarta, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.709056521316!2d110.37777961477829!3d-7.820588394364602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a570a1844199f%3A0xa5b82dea8c9abd31!2sYangko%20Giant!5e0!3m2!1sen!2sid!4v1624169519100!5m2!1sen!2sid"
+      },
+      {
+        "name": "Yangko Mira",
+        "location": "Kitren, Prenggan, Kotagede, Kota Yogyakarta, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.6832780109485!2d110.39577661477828!3d-7.823308494362687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a571694d93e21%3A0x31de79abd1dfac8c!2sYangko%20Mira%20%7C%20Oleh-Oleh%20Khas%20Jogja!5e0!3m2!1sen!2sid!4v1624169550264!5m2!1sen!2sid"
+      }
+    ]
+  },
+  {
+    "id": "jadah-tempe",
+    "category": "Kuliner",
+    "name": "Jadah Tempe",
+    "description": "<p>Jadah tempe adalah Salah satu makanan tradisional Sleman dan biasanya hanya ada di sekitar tempat wisata Gunung Merapi. Jadah tempe sebenarnya merupakan gabungan dari 2 makanan, yaitu jadah yang terbuat dari ketan dan campuran kelapa, serta tempe atau tahu yang sudah dibacem sehingga mempunyai rasa yang manis.</p>",
+    "picture": {
+      "link": "/assets/img/kuliner/jadah-tempe.jpg",
+      "license": "© Okkisafire / CC BY-SA 4.0"
+    },
+    "price": "Rp10.000 – Rp20.000",
+    "market": [
+      {
+        "name": "Warung Jadah Tempe Mbah Carik",
+        "location": "Jl. Kaliurang KM. 12,5, Legolan, Umbulmartani, Ngemplak, Kabupaten Sleman, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d18808.651451883856!2d110.40964678247674!3d-7.679719844025769!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5eb1c9dc8e53%3A0x10bcc07ac53c3d71!2sWarung%20Jadah%20Tempe%20Mbah%20Carik!5e0!3m2!1sen!2sid!4v1624169264802!5m2!1sen!2sid"
+      },
+      {
+        "name": "Jadah Tempe Ibu Sum",
+        "location": "Jl. Kricak Kidul No. TR1-1096A, Kricak, Tegalrejo, Kabupaten Sleman, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15812.326225209203!2d110.34672963929445!3d-7.781177434991536!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59e8ebca8c27%3A0x3f5d730a521bc090!2sJadah%20Tempe%20Ibu%20Sum!5e0!3m2!1sen!2sid!4v1624169294180!5m2!1sen!2sid"
+      },
+      {
+        "name": "Jadah Tempe Gabusan",
+        "location": "Jl. Parangtritis No. 5, Gabusan, Timbulharjo, Sewon, Kabupaten Bantul, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15808.697564754573!2d110.34743231530759!3d-7.876814175708309!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a560a8634955f%3A0x8b696837863e3226!2sJadah%20Tempe%20Gabusan!5e0!3m2!1sen!2sid!4v1624169324273!5m2!1sen!2sid"
+      }
+    ]
+  },
+  {
+    "id": "wedang-uwuh",
+    "category": "Kuliner",
+    "name": "Wedang Uwuh",
+    "description": "<p>Wedang uwuh sebenarnya dibuat dari bahan-bahan “sampah”. Wedang berarti minuman seduh dan uwuh berarti sampah. Wedang uwuh merupakan campuran rempah yang diseduh dan mempunyai warna cerah dan aroma harum.</p>",
+    "picture": {
+      "link": "/assets/img/kuliner/wedang-uwuh.jpg",
+      "license": "© Okky Al / CC BY-SA 4.0"
+    },
+    "price": "Rp10.000 - Rp30.000",
+    "market": [
+      {
+        "name": "Wedang Uwuh Farellin",
+        "location": "Kadipaten Wetan, Jl. Kp. No. 194, Kadipaten, Kraton, Kota Yogyakarta, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.835002270778!2d110.35669761477831!3d-7.807285294373961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5781c92d4afb%3A0xff0ed4503bb028a!2sWedang%20uwuh%20FARELLIN%20(wedang%20uwuh%20yang%20sebenarnya)%20minuman%20khas%20Imogiri%20yogyakarta!5e0!3m2!1sen!2sid!4v1624169041416!5m2!1sen!2sid"
+      },
+      {
+        "name": "Wedang Uwuh Bintang",
+        "location": "Ratmakan GM 1/658, Ngupasan, Gondomanan, Kota Yogyakarta, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.9066244898113!2d110.3680040147781!3d-7.799710094379296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5953fd270cab%3A0xf8a3864fcb5eef99!2sWedang%20uwuh%20bintang!5e0!3m2!1sen!2sid!4v1624169149610!5m2!1sen!2sid"
+      },
+      {
+        "name": "Wedang Uwuh Wak Aan",
+        "location": "Dusun Bendogorok RT 9, Puton, Trimulyo, Jetis, Kabupaten Bantul, Daerah Istimewa Yogyakarta.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4699.747680203808!2d110.38251710321987!3d-7.894965085989635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a512d4abff775%3A0x6415e47fbb3c6dbb!2sWedang%20Uwuh%20Wak%20Aan!5e0!3m2!1sen!2sid!4v1624169220767!5m2!1sen!2sid"
+      }
+    ]
+  }
+]
