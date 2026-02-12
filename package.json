@@ -28,7 +28,7 @@
     "svgo": "2.8.0",
     "webpack": "5.104.1",
     "webpack-cli": "4.10.0",
-    "webpack-dev-server": "4.15.2",
+    "webpack-dev-server": "5.2.1",
     "webpack-merge": "5.10.0",
     "workbox-webpack-plugin": "6.6.0"
   },
