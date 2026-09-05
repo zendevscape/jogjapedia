@@ -1,0 +1,18 @@
+[
+  {
+    "id": "wisata",
+    "name": "Destinasi Wisata"
+  },
+  {
+    "id": "kuliner",
+    "name": "Kuliner"
+  },
+  {
+    "id": "kerajinan",
+    "name": "Kerajinan"
+  },
+  {
+    "id": "pendidikan",
+    "name": "Lembaga Pendidikan"
+  }
+]
